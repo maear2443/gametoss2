@@ -25,6 +25,10 @@ export class Character {
         this.bpm = bpm;
         this.images = images;
 
+        // 활성화 상태 (제일 밑의 캐릭터만 활성화)
+        this.active = false;
+        this.activatedTime = null;
+
         // 판정 상태
         this.judged = false;
         this.result = null;
@@ -70,6 +74,18 @@ export class Character {
     }
 
     /**
+     * 캐릭터를 활성화합니다 (제일 밑으로 왔을 때).
+     *
+     * @param {number} currentTime - 활성화 시간 (초)
+     */
+    activate(currentTime) {
+        this.active = true;
+        this.activatedTime = currentTime;
+        this.spawnTime = currentTime;
+        this.calculateTiming();
+    }
+
+    /**
      * 현재 시간 기준으로 캐릭터의 단계를 반환합니다.
      *
      * @param {number} currentTime - 현재 시간 (초)
@@ -77,6 +93,11 @@ export class Character {
      *                   4는 시간 초과 상태 (자동 MISS)
      */
     getStage(currentTime) {
+        // 비활성화된 캐릭터는 항상 Stage 1 (대기 상태)
+        if (!this.active) {
+            return 1;
+        }
+
         if (currentTime < this.stage1EndTime) {
             return 1;
         } else if (currentTime < this.stage2EndTime) {
@@ -151,6 +172,11 @@ export class Character {
      * @returns {number} 펄스 스케일 (0.85 ~ 1.15)
      */
     getPulse(currentTime) {
+        // 비활성화된 캐릭터는 펄스 없음
+        if (!this.active) {
+            return 1.0;
+        }
+
         const stage = this.getStage(currentTime);
         let pulseConfig;
 
@@ -264,8 +290,8 @@ export class Character {
      * @returns {boolean} 제거 여부
      */
     shouldRemove(currentTime) {
-        // 시간 초과 (Stage 4)
-        if (currentTime >= this.stage3EndTime) {
+        // 활성화된 캐릭터만 시간 초과 체크
+        if (this.active && currentTime >= this.stage3EndTime) {
             return true;
         }
 

@@ -315,6 +315,8 @@ export class Game {
      * @param {number} spawnTime - 생성 시간 (초)
      */
     fillCharactersAtTime(spawnTime) {
+        const wasEmpty = this.characters.length === 0;
+
         while (this.characters.length < MAX_CHARACTERS) {
             // 랜덤 색상
             const color = COLOR_TYPES[Math.floor(Math.random() * COLOR_TYPES.length)];
@@ -334,6 +336,11 @@ export class Game {
 
             this.characters.push(character);
         }
+
+        // 첫 번째 캐릭터만 활성화 (제일 밑)
+        if (wasEmpty && this.characters.length > 0) {
+            this.characters[0].activate(spawnTime);
+        }
     }
 
     /**
@@ -348,6 +355,13 @@ export class Game {
         this.characters.forEach((char, i) => {
             char.position = i;
         });
+
+        // 첫 번째 캐릭터를 제거한 경우, 새로운 첫 번째 캐릭터 활성화
+        if (index === 0 && this.characters.length > 0) {
+            const currentTime = this.getNowSec();
+            this.characters[0].activate(currentTime);
+            console.log(`✅ 새로운 첫 번째 캐릭터 활성화 (${this.characters[0].color} ${this.characters[0].characterType})`);
+        }
     }
 
     /**

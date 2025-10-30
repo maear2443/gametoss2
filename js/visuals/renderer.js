@@ -156,13 +156,16 @@ function renderGrid() {
 
 /**
  * 모든 캐릭터를 그립니다.
+ * 첫 번째 캐릭터(index 0)가 제일 밑에 위치합니다.
  *
  * @param {Character[]} characters - 캐릭터 배열
  * @param {number} currentTime - 현재 시간 (초)
  */
 function renderCharacters(characters, currentTime) {
     const centerX = width / 2;
-    const startY = height / 2 - (characters.length - 1) * CHARACTER_SPACING / 2;
+    // 첫 번째 캐릭터가 아래쪽에 오도록 계산
+    const bottomY = height * 0.7; // 화면 하단 70% 지점
+    const startY = bottomY - (characters.length - 1) * CHARACTER_SPACING;
 
     characters.forEach((character, index) => {
         const x = centerX;
@@ -170,7 +173,7 @@ function renderCharacters(characters, currentTime) {
 
         character.draw(ctx, currentTime, x, y);
 
-        // 첫 번째 캐릭터 하이라이트
+        // 첫 번째 캐릭터 하이라이트 (제일 밑)
         if (index === 0) {
             renderFirstCharacterHighlight(x, y);
         }
@@ -186,8 +189,21 @@ function renderCharacters(characters, currentTime) {
 function renderFirstCharacterHighlight(x, y) {
     ctx.save();
 
-    // 점선 원 그리기
-    ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+    // 펄스 효과를 위한 시간 기반 알파
+    const time = performance.now() / 1000;
+    const pulse = 0.3 + Math.sin(time * 3) * 0.2;
+
+    // 외곽 원 (강조)
+    ctx.strokeStyle = `rgba(255, 255, 0, ${pulse})`;
+    ctx.lineWidth = 3;
+    ctx.setLineDash([10, 5]);
+
+    ctx.beginPath();
+    ctx.arc(x, y, 50, 0, Math.PI * 2);
+    ctx.stroke();
+
+    // 내부 원
+    ctx.strokeStyle = `rgba(255, 255, 255, ${pulse * 0.5})`;
     ctx.lineWidth = 2;
     ctx.setLineDash([5, 5]);
 
