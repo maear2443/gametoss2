@@ -4,7 +4,7 @@
  * 캔버스에 모든 비주얼 요소를 그립니다.
  */
 
-import { CHARACTER_SPACING } from '../config/settings.js';
+import { CHARACTER_SPACING, CHARACTER_SIZE } from '../config/settings.js';
 import {
     renderFlash,
     renderRing,
