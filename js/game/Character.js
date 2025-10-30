@@ -224,11 +224,11 @@ export class Character {
         // 글로우 효과 설정
         let glowConfig;
 
-        // 비활성 캐릭터는 약한 글로우
+        // 비활성 캐릭터는 밝고 선명하게 (대기 중)
         if (!this.active) {
             glowConfig = {
-                blur: 3,
-                alpha: 0.8
+                blur: 5,
+                alpha: 1.0  // 완전히 불투명
             };
         } else {
             switch (stage) {
