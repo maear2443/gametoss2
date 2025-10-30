@@ -17,7 +17,7 @@ export const MAX_CHARACTERS = 7;          // 화면에 표시될 최대 캐릭�
 // 캐릭터 설정
 // ==============================================
 
-export const CHARACTER_SIZE = 48;         // 캐릭터 기본 크기 (픽셀)
+export const CHARACTER_SIZE = 96;         // 캐릭터 기본 크기 (픽셀)
 export const CHARACTER_SPACING = 80;      // 캐릭터 간 세로 간격 (픽셀)
 
 // ==============================================

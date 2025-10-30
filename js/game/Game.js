@@ -371,6 +371,9 @@ export class Game {
      * @param {number} currentTime - 현재 시간 (초)
      */
     removeTimedOutCharacters(currentTime) {
+        const beforeLength = this.characters.length;
+        const firstCharWasRemoved = this.characters.length > 0 && this.characters[0].shouldRemove(currentTime);
+
         this.characters = this.characters.filter(char => {
             const shouldRemove = char.shouldRemove(currentTime);
 
@@ -387,6 +390,12 @@ export class Game {
         this.characters.forEach((char, i) => {
             char.position = i;
         });
+
+        // 첫 번째 캐릭터가 제거되었으면 새로운 첫 번째 활성화
+        if (firstCharWasRemoved && this.characters.length > 0 && !this.characters[0].active) {
+            this.characters[0].activate(currentTime);
+            console.log(`✅ 시간 초과로 새로운 첫 번째 캐릭터 활성화`);
+        }
     }
 
     // ==============================================
