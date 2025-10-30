@@ -157,31 +157,38 @@ function renderGrid() {
 /**
  * 모든 캐릭터를 그립니다.
  * 첫 번째 캐릭터(index 0)가 제일 밑에 위치합니다.
+ * 인형들이 살짝 겹쳐서 쌓여있는 느낌을 줍니다.
  *
  * @param {Character[]} characters - 캐릭터 배열
  * @param {number} currentTime - 현재 시간 (초)
  */
 function renderCharacters(characters, currentTime) {
     const centerX = width / 2;
-    // 첫 번째 캐릭터가 아래쪽에 오도록 계산
-    const bottomY = height * 0.7; // 화면 하단 70% 지점
-    const startY = bottomY - (characters.length - 1) * CHARACTER_SPACING;
 
-    characters.forEach((character, index) => {
+    // 화면을 꽉 채우도록 설정
+    const bottomY = height * 0.85; // 화면 하단 85% 지점
+
+    // 겹침 효과를 위해 간격을 줄임 (캐릭터 크기보다 작게)
+    const overlapSpacing = CHARACTER_SIZE * 0.7; // 30% 겹침
+
+    // 역순으로 그려서 첫 번째 캐릭터가 맨 위에 오도록 (Z-index)
+    for (let i = characters.length - 1; i >= 0; i--) {
+        const character = characters[i];
         const x = centerX;
-        const y = startY + index * CHARACTER_SPACING;
+        const y = bottomY - i * overlapSpacing;
 
         character.draw(ctx, currentTime, x, y);
 
-        // 첫 번째 캐릭터 하이라이트 (제일 밑)
-        if (index === 0) {
+        // 첫 번째 캐릭터 하이라이트 (제일 밑, 맨 마지막에 그려짐)
+        if (i === 0) {
             renderFirstCharacterHighlight(x, y);
         }
-    });
+    }
 }
 
 /**
  * 첫 번째 캐릭터 주변에 하이라이트를 그립니다.
+ * 타격 영역을 명확하게 표시합니다.
  *
  * @param {number} x - X 좌표
  * @param {number} y - Y 좌표
@@ -191,25 +198,39 @@ function renderFirstCharacterHighlight(x, y) {
 
     // 펄스 효과를 위한 시간 기반 알파
     const time = performance.now() / 1000;
-    const pulse = 0.3 + Math.sin(time * 3) * 0.2;
+    const pulse = 0.5 + Math.sin(time * 4) * 0.3;
 
-    // 외곽 원 (강조)
+    // 타격 영역 배경 (반투명 원)
+    ctx.fillStyle = `rgba(255, 255, 0, ${pulse * 0.15})`;
+    ctx.beginPath();
+    ctx.arc(x, y, 60, 0, Math.PI * 2);
+    ctx.fill();
+
+    // 외곽 원 (타격 영역 경계)
     ctx.strokeStyle = `rgba(255, 255, 0, ${pulse})`;
-    ctx.lineWidth = 3;
-    ctx.setLineDash([10, 5]);
+    ctx.lineWidth = 4;
+    ctx.setLineDash([]);
+
+    ctx.beginPath();
+    ctx.arc(x, y, 60, 0, Math.PI * 2);
+    ctx.stroke();
+
+    // 내부 원 (강조)
+    ctx.strokeStyle = `rgba(255, 255, 255, ${pulse * 0.8})`;
+    ctx.lineWidth = 2;
+    ctx.setLineDash([8, 4]);
 
     ctx.beginPath();
     ctx.arc(x, y, 50, 0, Math.PI * 2);
     ctx.stroke();
 
-    // 내부 원
-    ctx.strokeStyle = `rgba(255, 255, 255, ${pulse * 0.5})`;
-    ctx.lineWidth = 2;
-    ctx.setLineDash([5, 5]);
-
-    ctx.beginPath();
-    ctx.arc(x, y, 40, 0, Math.PI * 2);
-    ctx.stroke();
+    // "HIT!" 텍스트 표시
+    ctx.setLineDash([]);
+    ctx.fillStyle = `rgba(255, 255, 0, ${pulse})`;
+    ctx.font = 'bold 14px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('타격!', x, y + 80);
 
     ctx.restore();
 }

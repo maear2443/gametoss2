@@ -262,14 +262,15 @@ export class Game {
 
         startHitFlash(flashColor);
 
-        // 캐릭터 위치 (화면 중앙)
+        // 캐릭터 위치 계산 (renderer.js와 동일한 로직)
         const x = this.ui.$canvas.width / 2;
-        const y = this.ui.$canvas.height / 2 - (this.characters.length - 1) * 40;
+        const bottomY = this.ui.$canvas.height * 0.85; // 제일 밑 캐릭터 위치
+        const y = bottomY; // 첫 번째 캐릭터는 제일 밑
 
         createParticles(x, y, judgment, color);
         createFloatText(x + 60, y, getJudgmentText(judgment, finalScore), color, '2rem');
 
-        // 애니메이션 발동
+        // 애니메이션 발동 (제일 밑 캐릭터 위치)
         if (character.color === 'red') {
             triggerHammer(x, y);
         } else {

@@ -116,6 +116,11 @@ export class Character {
      * @returns {Image|null} 현재 단계의 이미지
      */
     getImage(currentTime) {
+        // 비활성 캐릭터는 항상 밝은 상태 (stage3)
+        if (!this.active) {
+            return this.images.stage3;
+        }
+
         const stage = this.getStage(currentTime);
 
         switch (stage) {
@@ -218,17 +223,26 @@ export class Character {
 
         // 글로우 효과 설정
         let glowConfig;
-        switch (stage) {
-            case 1:
-                glowConfig = GLOW.STAGE1;
-                break;
-            case 2:
-                glowConfig = GLOW.STAGE2;
-                break;
-            case 3:
-            default:
-                glowConfig = GLOW.STAGE3;
-                break;
+
+        // 비활성 캐릭터는 약한 글로우
+        if (!this.active) {
+            glowConfig = {
+                blur: 3,
+                alpha: 0.8
+            };
+        } else {
+            switch (stage) {
+                case 1:
+                    glowConfig = GLOW.STAGE1;
+                    break;
+                case 2:
+                    glowConfig = GLOW.STAGE2;
+                    break;
+                case 3:
+                default:
+                    glowConfig = GLOW.STAGE3;
+                    break;
+            }
         }
 
         ctx.save();
