@@ -1,0 +1,62 @@
+{
+  "description": "캐릭터 메타데이터",
+  "version": "1.0",
+  "characters": [
+    {
+      "type": "bear",
+      "name": "곰",
+      "description": "귀여운 곰 인형"
+    },
+    {
+      "type": "cat",
+      "name": "고양이",
+      "description": "장난꾸러기 고양이 인형"
+    },
+    {
+      "type": "rabbit",
+      "name": "토끼",
+      "description": "깡총깡총 토끼 인형"
+    },
+    {
+      "type": "dog",
+      "name": "강아지",
+      "description": "충성스러운 강아지 인형"
+    },
+    {
+      "type": "fox",
+      "name": "여우",
+      "description": "영리한 여우 인형"
+    }
+  ],
+  "colors": [
+    {
+      "type": "red",
+      "name": "빨강",
+      "action": "reject",
+      "description": "거절용 캐릭터 (F키)"
+    },
+    {
+      "type": "blue",
+      "name": "파랑",
+      "action": "approve",
+      "description": "승인용 캐릭터 (J키)"
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "brightness": "어두움",
+      "duration_beats": 2
+    },
+    {
+      "stage": 2,
+      "brightness": "중간",
+      "duration_beats": 2
+    },
+    {
+      "stage": 3,
+      "brightness": "밝음 (글로우)",
+      "duration_beats": 2
+    }
+  ]
+}

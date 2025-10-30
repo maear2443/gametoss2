@@ -1,0 +1,27 @@
+{
+  "description": "음악 플레이리스트",
+  "version": "1.0",
+  "songs": [
+    {
+      "name": "Factory Beat 1",
+      "file": "song1.mp3",
+      "bpm": 120,
+      "duration": 180,
+      "artist": "Game Music"
+    },
+    {
+      "name": "Factory Beat 2",
+      "file": "song2.mp3",
+      "bpm": 140,
+      "duration": 180,
+      "artist": "Game Music"
+    },
+    {
+      "name": "Factory Beat 3",
+      "file": "song3.mp3",
+      "bpm": 100,
+      "duration": 180,
+      "artist": "Game Music"
+    }
+  ]
+}

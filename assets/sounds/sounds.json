@@ -1,0 +1,30 @@
+{
+  "description": "효과음 메타데이터",
+  "version": "1.0",
+  "sounds": [
+    {
+      "name": "approve_success",
+      "file": "approve_success.wav",
+      "description": "승인 성공 효과음",
+      "volume": 1.0
+    },
+    {
+      "name": "reject_success",
+      "file": "reject_success.wav",
+      "description": "거절 성공 효과음",
+      "volume": 1.0
+    },
+    {
+      "name": "approve_fail",
+      "file": "approve_fail.wav",
+      "description": "승인 실패 효과음",
+      "volume": 1.0
+    },
+    {
+      "name": "reject_fail",
+      "file": "reject_fail.wav",
+      "description": "거절 실패 효과음",
+      "volume": 1.0
+    }
+  ]
+}
