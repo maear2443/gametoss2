@@ -122,17 +122,33 @@ export class Character {
         }
 
         const stage = this.getStage(currentTime);
+        let image;
 
         switch (stage) {
             case 1:
-                return this.images.stage1;
+                image = this.images.stage1;
+                break;
             case 2:
-                return this.images.stage2;
+                image = this.images.stage2;
+                break;
             case 3:
-                return this.images.stage3;
+                image = this.images.stage3;
+                break;
             default:
-                return this.images.stage3; // 시간 초과 시에도 stage3 이미지 사용
+                image = this.images.stage3; // 시간 초과 시에도 stage3 이미지 사용
         }
+
+        // 디버그: 첫 번째 캐릭터만 로그
+        if (this.position === 0 && Math.random() < 0.01) {
+            console.log(`[${this.color}] Stage ${stage}, Image exists:`, {
+                stage1: !!this.images.stage1,
+                stage2: !!this.images.stage2,
+                stage3: !!this.images.stage3,
+                currentImage: !!image
+            });
+        }
+
+        return image;
     }
 
     /**

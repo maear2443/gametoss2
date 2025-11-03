@@ -286,14 +286,16 @@ export class Game {
         // 판정 표시
         this.showJudgment(judgment);
 
-        // 캐릭터 제거 마킹
+        // 캐릭터 판정 기록
         character.setJudgment(judgment);
-        character.markForRemoval();
 
-        // 200ms 후 캐릭터 교체
+        // 200ms 후 캐릭터 제거 (애니메이션 보여주기 위해)
         setTimeout(() => {
-            this.removeCharacter(0);
-            this.fillCharacters();
+            // 아직 첫 번째 캐릭터가 맞는지 확인 (게임 루프에서 이미 제거되지 않았는지)
+            if (this.characters.length > 0 && this.characters[0] === character) {
+                this.removeCharacter(0);
+                this.fillCharacters();
+            }
         }, UI.CHARACTER_REMOVE_DELAY);
 
         console.log(`${judgment} | Stage ${stage} | ${isCorrect ? '✅' : '❌'} | Score: +${finalScore} | Combo: ${this.combo}`);
@@ -371,19 +373,22 @@ export class Game {
      * @param {number} currentTime - 현재 시간 (초)
      */
     removeTimedOutCharacters(currentTime) {
-        const beforeLength = this.characters.length;
-        const firstCharWasRemoved = this.characters.length > 0 && this.characters[0].shouldRemove(currentTime);
+        const firstCharWasRemoved = this.characters.length > 0 &&
+            this.characters[0].active &&
+            currentTime >= this.characters[0].stage3EndTime &&
+            !this.characters[0].judged;
 
         this.characters = this.characters.filter(char => {
-            const shouldRemove = char.shouldRemove(currentTime);
+            // 시간 초과만 체크 (판정받은 캐릭터는 handleAction에서 제거)
+            const isTimedOut = char.active && currentTime >= char.stage3EndTime && !char.judged;
 
-            if (shouldRemove && !char.judged) {
+            if (isTimedOut) {
                 // 자동 MISS 처리
                 this.combo = 0;
                 console.log('⏰ 자동 MISS (시간 초과)');
             }
 
-            return !shouldRemove;
+            return !isTimedOut;
         });
 
         // 위치 재조정

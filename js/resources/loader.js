@@ -122,10 +122,10 @@ async function loadCharacterImages() {
                 const promise = loadImage(imagePath)
                     .then(img => {
                         resources.characterImages[color][characterType][`stage${stage}`] = img;
-                        console.log(`✅ 이미지 로드: ${imagePath}`);
+                        console.log(`✅ 이미지 로드 성공: ${imagePath} (${img.width}x${img.height})`);
                     })
                     .catch(err => {
-                        console.warn(`⚠️ 이미지 로드 실패 (fallback 사용): ${imagePath}`);
+                        console.error(`❌ 이미지 로드 실패: ${imagePath}`, err);
                         // 실패해도 계속 진행 (fallback으로 색상 박스 사용)
                     });
 
@@ -135,6 +135,16 @@ async function loadCharacterImages() {
     });
 
     await Promise.allSettled(promises);
+
+    // 로딩 결과 요약
+    console.log('📊 캐릭터 이미지 로딩 요약:');
+    COLOR_TYPES.forEach(color => {
+        CHARACTER_TYPES.forEach(characterType => {
+            const images = resources.characterImages[color][characterType];
+            const loaded = [images.stage1, images.stage2, images.stage3].filter(img => img !== null).length;
+            console.log(`  ${color}/${characterType}: ${loaded}/3 로드됨`);
+        });
+    });
     console.log('✅ 캐릭터 이미지 로딩 완료');
 }
 
