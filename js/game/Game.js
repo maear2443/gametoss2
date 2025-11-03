@@ -51,6 +51,11 @@ export class Game {
         this.gameDuration = GAME_DURATION; // 동적으로 설정 가능
         this.timeRemaining = this.gameDuration;
 
+        // 비트맵 모드
+        this.beatmap = null;
+        this.beatmapEnabled = false;
+        this.nextBeatIndex = 0;
+
         // 타이밍
         this.rafId = null;
         this.lastTime = 0;
@@ -122,6 +127,7 @@ export class Game {
         this.maxCombo = 0;
         this.timeRemaining = this.gameDuration; // 동적 게임 시간 사용
         this.characters = [];
+        this.nextBeatIndex = 0; // 비트맵 인덱스 리셋
 
         // 이펙트 초기화
         clearEffects();
@@ -130,8 +136,10 @@ export class Game {
         // 음악 리셋
         resetMusic();
 
-        // 캐릭터 생성 (시간 0 기준)
-        this.fillCharactersAtTime(0);
+        // 캐릭터 생성 (비트맵 모드가 아닐 때만)
+        if (!this.beatmapEnabled) {
+            this.fillCharactersAtTime(0);
+        }
 
         // UI 업데이트
         this.updateHUD();
@@ -145,7 +153,7 @@ export class Game {
         // 초기 렌더링
         render(this.characters, 0);
 
-        console.log(`Reset: Created ${this.characters.length} characters`);
+        console.log(`Reset: ${this.beatmapEnabled ? '비트맵 모드' : '기본 모드'}, Created ${this.characters.length} characters`);
     }
 
     /**
@@ -192,8 +200,13 @@ export class Game {
         // 시간 초과 캐릭터 제거
         this.removeTimedOutCharacters(this.getNowSec());
 
-        // 캐릭터 채우기
-        this.fillCharacters();
+        // 비트맵 모드일 경우 비트에 맞춰 캐릭터 생성
+        if (this.beatmapEnabled) {
+            this.updateBeatmapSpawns(this.getNowSec());
+        } else {
+            // 기본 모드: 캐릭터 채우기
+            this.fillCharacters();
+        }
 
         // 이펙트 업데이트
         updateEffects(dt);
@@ -401,6 +414,61 @@ export class Game {
     }
 
     // ==============================================
+    // 비트맵 모드
+    // ==============================================
+
+    /**
+     * 비트맵에 따라 캐릭터를 생성합니다.
+     *
+     * @param {number} currentTime - 현재 시간 (초)
+     */
+    updateBeatmapSpawns(currentTime) {
+        if (!this.beatmap || !this.beatmap.game_events) return;
+
+        const events = this.beatmap.game_events;
+
+        // 다음 비트 이벤트 확인
+        while (this.nextBeatIndex < events.length) {
+            const event = events[this.nextBeatIndex];
+
+            // 아직 시간이 안 됨
+            if (event.time > currentTime) {
+                break;
+            }
+
+            // 이벤트 처리 (캐릭터 생성)
+            if (event.type === 'spawn_character' && this.characters.length < MAX_CHARACTERS) {
+                // 랜덤 색상
+                const color = COLOR_TYPES[Math.floor(Math.random() * COLOR_TYPES.length)];
+
+                // 랜덤 캐릭터
+                const { characterType, images } = getRandomCharacter(color);
+
+                // 캐릭터 생성
+                const character = new Character(
+                    color,
+                    characterType,
+                    currentTime,
+                    this.characters.length,
+                    this.bpm,
+                    images
+                );
+
+                this.characters.push(character);
+
+                // 첫 번째 캐릭터면 활성화
+                if (this.characters.length === 1) {
+                    character.activate(currentTime);
+                }
+
+                console.log(`🎼 비트 이벤트 (${event.beat_index}): ${color} ${characterType} @ ${event.time.toFixed(2)}s`);
+            }
+
+            this.nextBeatIndex++;
+        }
+    }
+
+    // ==============================================
     // BPM 관리
     // ==============================================
 
@@ -441,6 +509,23 @@ export class Game {
         console.log(`⏱️ 게임 시간 설정: ${duration}초`);
         this.gameDuration = duration;
         this.timeRemaining = duration;
+    }
+
+    /**
+     * 비트맵을 설정합니다.
+     *
+     * @param {Object|null} beatmap - 비트맵 데이터 (null이면 비트맵 모드 해제)
+     */
+    setBeatmap(beatmap) {
+        this.beatmap = beatmap;
+        this.beatmapEnabled = beatmap !== null;
+        this.nextBeatIndex = 0;
+
+        if (this.beatmapEnabled) {
+            console.log(`🎼 비트맵 모드 활성화! (이벤트: ${beatmap.game_events.length}개)`);
+        } else {
+            console.log('⚠️ 기본 모드로 전환');
+        }
     }
 
     // ==============================================

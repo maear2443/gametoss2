@@ -20,7 +20,8 @@ export const resources = {
     },
     soundEffects: {},
     currentAudio: null,
-    currentSong: null
+    currentSong: null,
+    beatmaps: {} // 비트맵 데이터 저장
 };
 
 // ==============================================
@@ -315,6 +316,60 @@ export function getAllSongs() {
         return resources.playlistData.songs;
     }
     return [];
+}
+
+/**
+ * 비트맵 파일을 로드합니다.
+ *
+ * @param {string} songFile - 음악 파일명 (예: "DREAM RACE (Remix).mp3")
+ * @returns {Promise<Object|null>} 비트맵 데이터 또는 null
+ */
+export async function loadBeatmap(songFile) {
+    // 파일명에서 확장자 제거
+    const songName = songFile.replace('.mp3', '').replace('.MP3', '');
+    const beatmapPath = `assets/music/beatmaps/${songName}.json`;
+
+    // 이미 로드된 비트맵이 있으면 반환
+    if (resources.beatmaps[songName]) {
+        console.log(`✅ 캐시된 비트맵 사용: ${songName}`);
+        return resources.beatmaps[songName];
+    }
+
+    try {
+        console.log(`🎼 비트맵 로딩 시도: ${beatmapPath}`);
+        const response = await fetch(beatmapPath);
+
+        if (!response.ok) {
+            console.warn(`⚠️ 비트맵 없음: ${beatmapPath} (${response.status})`);
+            return null;
+        }
+
+        const beatmap = await response.json();
+        resources.beatmaps[songName] = beatmap;
+
+        console.log(`✅ 비트맵 로드 완료: ${songName}`);
+        console.log(`   - 비트 수: ${beatmap.beats?.all_beats?.length || 0}개`);
+        console.log(`   - 게임 이벤트: ${beatmap.game_events?.length || 0}개`);
+
+        return beatmap;
+    } catch (error) {
+        console.warn(`⚠️ 비트맵 로드 실패: ${beatmapPath}`, error);
+        return null;
+    }
+}
+
+/**
+ * 현재 선택된 곡의 비트맵을 반환합니다.
+ *
+ * @returns {Object|null} 비트맵 데이터 또는 null
+ */
+export function getCurrentBeatmap() {
+    if (!resources.currentSong) {
+        return null;
+    }
+
+    const songName = resources.currentSong.file.replace('.mp3', '').replace('.MP3', '');
+    return resources.beatmaps[songName] || null;
 }
 
 /**

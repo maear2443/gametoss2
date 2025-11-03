@@ -7,7 +7,7 @@
 import { Game } from './game/Game.js';
 import { setupInput } from './input.js';
 import { initCanvas } from './visuals/renderer.js';
-import { loadAllResources, selectSongByIndex } from './resources/loader.js';
+import { loadAllResources, selectSongByIndex, loadBeatmap } from './resources/loader.js';
 
 // ==============================================
 // UI 요소
@@ -65,10 +65,20 @@ async function init() {
             game.updateTempo(songData.bpm);
             game.setGameDuration(songData.duration);
             console.log(`초기 곡: ${songData.name}, BPM: ${songData.bpm}, 길이: ${songData.duration}초`);
+
+            // 비트맵 로드 시도
+            loadBeatmap(songData.audio.src.split('/').pop()).then(beatmap => {
+                if (beatmap) {
+                    game.setBeatmap(beatmap);
+                    console.log('🎼 비트맵 적용됨!');
+                } else {
+                    console.log('⚠️ 비트맵 없음 - 기본 모드 사용');
+                }
+            });
         }
 
         // 곡 선택 이벤트 리스너
-        ui.$songSelect.addEventListener('change', (e) => {
+        ui.$songSelect.addEventListener('change', async (e) => {
             const selectedIndex = parseInt(e.target.value);
             const newSongData = selectSongByIndex(selectedIndex);
 
@@ -76,6 +86,16 @@ async function init() {
                 ui.$bpm.textContent = newSongData.bpm;
                 game.updateTempo(newSongData.bpm);
                 game.setGameDuration(newSongData.duration);
+
+                // 비트맵 로드
+                const beatmap = await loadBeatmap(newSongData.audio.src.split('/').pop());
+                if (beatmap) {
+                    game.setBeatmap(beatmap);
+                    console.log('🎼 비트맵 적용됨!');
+                } else {
+                    game.setBeatmap(null);
+                    console.log('⚠️ 비트맵 없음 - 기본 모드 사용');
+                }
 
                 // 게임이 실행 중이 아니면 리셋
                 if (!game.running) {
