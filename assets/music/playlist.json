@@ -3,24 +3,24 @@
   "version": "1.0",
   "songs": [
     {
-      "name": "Factory Beat 1",
-      "file": "song1.mp3",
+      "name": "드림레이스",
+      "file": "dream_race.mp3",
       "bpm": 120,
-      "duration": 180,
+      "duration": 183,
       "artist": "Game Music"
     },
     {
-      "name": "Factory Beat 2",
-      "file": "song2.mp3",
+      "name": "브레이크 프리",
+      "file": "break_free.mp3",
       "bpm": 140,
-      "duration": 180,
+      "duration": 277,
       "artist": "Game Music"
     },
     {
-      "name": "Factory Beat 3",
-      "file": "song3.mp3",
-      "bpm": 100,
-      "duration": 180,
+      "name": "페이크 프랜드",
+      "file": "fake_friend.mp3",
+      "bpm": 130,
+      "duration": 195,
       "artist": "Game Music"
     }
   ]

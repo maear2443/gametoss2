@@ -226,7 +226,7 @@ export function getRandomCharacter(color) {
 /**
  * 플레이리스트에서 랜덤 곡을 선택합니다.
  *
- * @returns {{bpm: number, name: string, audio: Audio}}
+ * @returns {{bpm: number, name: string, audio: Audio, duration: number}}
  */
 export function selectRandomSong() {
     // playlist.json이 있으면 사용
@@ -235,17 +235,18 @@ export function selectRandomSong() {
         const song = songs[Math.floor(Math.random() * songs.length)];
 
         const audio = new Audio(`assets/music/${song.file}`);
-        audio.loop = true;
+        audio.loop = false; // 노래 길이만큼만 재생
 
         resources.currentAudio = audio;
         resources.currentSong = song;
 
-        console.log(`🎵 선택된 곡: ${song.name} (${song.bpm} BPM)`);
+        console.log(`🎵 선택된 곡: ${song.name} (${song.bpm} BPM, ${song.duration}초)`);
 
         return {
             bpm: song.bpm,
             name: song.name,
-            audio: audio
+            audio: audio,
+            duration: song.duration
         };
     }
 
@@ -254,8 +255,66 @@ export function selectRandomSong() {
     return {
         bpm: 120,
         name: 'No Music',
-        audio: null
+        audio: null,
+        duration: 60
     };
+}
+
+/**
+ * 플레이리스트에서 특정 인덱스의 곡을 선택합니다.
+ *
+ * @param {number} index - 곡 인덱스
+ * @returns {{bpm: number, name: string, audio: Audio, duration: number}}
+ */
+export function selectSongByIndex(index) {
+    // playlist.json이 있으면 사용
+    if (resources.playlistData && resources.playlistData.songs) {
+        const songs = resources.playlistData.songs;
+
+        // 유효한 인덱스 확인
+        if (index < 0 || index >= songs.length) {
+            console.warn(`⚠️ 잘못된 곡 인덱스: ${index}, 첫 번째 곡 사용`);
+            index = 0;
+        }
+
+        const song = songs[index];
+
+        const audio = new Audio(`assets/music/${song.file}`);
+        audio.loop = false; // 노래 길이만큼만 재생
+
+        resources.currentAudio = audio;
+        resources.currentSong = song;
+
+        console.log(`🎵 선택된 곡: ${song.name} (${song.bpm} BPM, ${song.duration}초)`);
+
+        return {
+            bpm: song.bpm,
+            name: song.name,
+            audio: audio,
+            duration: song.duration
+        };
+    }
+
+    // 기본값 반환 (음악 없음)
+    console.warn('⚠️ 플레이리스트가 없습니다. 기본 BPM 사용');
+    return {
+        bpm: 120,
+        name: 'No Music',
+        audio: null,
+        duration: 60
+    };
+}
+
+/**
+ * 플레이리스트의 모든 곡 정보를 반환합니다.
+ *
+ * @returns {Array} 곡 목록
+ */
+export function getAllSongs() {
+    if (resources.playlistData && resources.playlistData.songs) {
+        return resources.playlistData.songs;
+    }
+    return [];
 }
 
 /**

@@ -7,7 +7,7 @@
 import { Game } from './game/Game.js';
 import { setupInput } from './input.js';
 import { initCanvas } from './visuals/renderer.js';
-import { loadAllResources, selectRandomSong } from './resources/loader.js';
+import { loadAllResources, selectSongByIndex } from './resources/loader.js';
 
 // ==============================================
 // UI 요소
@@ -20,6 +20,7 @@ const ui = {
     $maxCombo: document.getElementById('max-combo'),
     $timer: document.getElementById('timer'),
     $bpm: document.getElementById('bpm'),
+    $songSelect: document.getElementById('song-select'),
     $startBtn: document.getElementById('start-btn'),
     $stopBtn: document.getElementById('stop-btn'),
     $resetBtn: document.getElementById('reset-btn'),
@@ -52,16 +53,38 @@ async function init() {
         console.log('📦 리소스 로딩...');
         await loadAllResources();
 
-        // 음악 선택
-        console.log('🎵 음악 선택...');
-        const songData = selectRandomSong();
-        if (songData && songData.bpm) {
-            ui.$bpm.value = songData.bpm;
-        }
-
         // 게임 인스턴스 생성
         console.log('🎮 게임 인스턴스 생성...');
         const game = new Game(ui);
+
+        // 초기 곡 선택 (첫 번째 곡)
+        console.log('🎵 음악 선택...');
+        const songData = selectSongByIndex(0);
+        if (songData) {
+            ui.$bpm.value = songData.bpm;
+            game.updateTempo(songData.bpm);
+            game.setGameDuration(songData.duration);
+            console.log(`초기 곡: ${songData.name}, BPM: ${songData.bpm}, 길이: ${songData.duration}초`);
+        }
+
+        // 곡 선택 이벤트 리스너
+        ui.$songSelect.addEventListener('change', (e) => {
+            const selectedIndex = parseInt(e.target.value);
+            const newSongData = selectSongByIndex(selectedIndex);
+
+            if (newSongData) {
+                ui.$bpm.value = newSongData.bpm;
+                game.updateTempo(newSongData.bpm);
+                game.setGameDuration(newSongData.duration);
+
+                // 게임이 실행 중이 아니면 리셋
+                if (!game.running) {
+                    game.reset();
+                }
+
+                console.log(`곡 변경: ${newSongData.name}, BPM: ${newSongData.bpm}, 길이: ${newSongData.duration}초`);
+            }
+        });
 
         // 입력 시스템 설정
         console.log('⌨️ 입력 시스템 설정...');
@@ -77,10 +100,11 @@ async function init() {
         console.log('✅ 초기화 완료!');
         console.log('');
         console.log('=== 게임 시작 방법 ===');
-        console.log('1. "시작" 버튼 클릭 또는 Space 키 누르기');
-        console.log('2. 빨간색 캐릭터 → F키 (거절)');
-        console.log('3. 파란색 캐릭터 → J키 (승인)');
-        console.log('4. Stage 3 (가장 밝을 때) = PERFECT!');
+        console.log('1. 곡을 선택하세요');
+        console.log('2. "시작" 버튼 클릭 또는 Space 키 누르기');
+        console.log('3. 빨간색 캐릭터 → F키 (거절)');
+        console.log('4. 파란색 캐릭터 → J키 (승인)');
+        console.log('5. Stage 3 (가장 밝을 때) = PERFECT!');
         console.log('======================');
 
     } catch (error) {

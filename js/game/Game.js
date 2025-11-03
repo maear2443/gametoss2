@@ -48,7 +48,8 @@ export class Game {
         this.combo = 0;
         this.maxCombo = 0;
         this.characters = [];
-        this.timeRemaining = GAME_DURATION;
+        this.gameDuration = GAME_DURATION; // 동적으로 설정 가능
+        this.timeRemaining = this.gameDuration;
 
         // 타이밍
         this.rafId = null;
@@ -123,7 +124,7 @@ export class Game {
         this.score = 0;
         this.combo = 0;
         this.maxCombo = 0;
-        this.timeRemaining = GAME_DURATION;
+        this.timeRemaining = this.gameDuration; // 동적 게임 시간 사용
         this.characters = [];
 
         // 이펙트 초기화
@@ -184,7 +185,7 @@ export class Game {
 
         // 게임 시간 업데이트
         const elapsedTime = currentTime - this.startTime;
-        this.timeRemaining = Math.max(0, GAME_DURATION - elapsedTime);
+        this.timeRemaining = Math.max(0, this.gameDuration - elapsedTime);
 
         // 타임아웃 체크
         if (this.timeRemaining <= 0) {
@@ -433,6 +434,17 @@ export class Game {
 
         // 모든 캐릭터 업데이트
         this.updateAllCharactersBPM(newBpm);
+    }
+
+    /**
+     * 게임 시간을 설정합니다.
+     *
+     * @param {number} duration - 게임 시간 (초)
+     */
+    setGameDuration(duration) {
+        console.log(`⏱️ 게임 시간 설정: ${duration}초`);
+        this.gameDuration = duration;
+        this.timeRemaining = duration;
     }
 
     // ==============================================
