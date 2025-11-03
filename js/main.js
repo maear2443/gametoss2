@@ -61,7 +61,7 @@ async function init() {
         console.log('🎵 음악 선택...');
         const songData = selectSongByIndex(0);
         if (songData) {
-            ui.$bpm.value = songData.bpm;
+            ui.$bpm.textContent = songData.bpm;
             game.updateTempo(songData.bpm);
             game.setGameDuration(songData.duration);
             console.log(`초기 곡: ${songData.name}, BPM: ${songData.bpm}, 길이: ${songData.duration}초`);
@@ -73,7 +73,7 @@ async function init() {
             const newSongData = selectSongByIndex(selectedIndex);
 
             if (newSongData) {
-                ui.$bpm.value = newSongData.bpm;
+                ui.$bpm.textContent = newSongData.bpm;
                 game.updateTempo(newSongData.bpm);
                 game.setGameDuration(newSongData.duration);
 

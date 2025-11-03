@@ -4,21 +4,21 @@
   "songs": [
     {
       "name": "드림레이스",
-      "file": "dream_race.mp3",
+      "file": "DREAM RACE (Remix).mp3",
       "bpm": 120,
       "duration": 183,
       "artist": "Game Music"
     },
     {
       "name": "브레이크 프리",
-      "file": "break_free.mp3",
+      "file": "BREAK FREE.mp3",
       "bpm": 140,
       "duration": 277,
       "artist": "Game Music"
     },
     {
       "name": "페이크 프랜드",
-      "file": "fake_friend.mp3",
+      "file": "FAKE FRIEND.mp3",
       "bpm": 130,
       "duration": 195,
       "artist": "Game Music"

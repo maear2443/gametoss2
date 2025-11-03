@@ -69,10 +69,6 @@ export class Game {
 
         console.log('🎮 게임 시작!');
 
-        // BPM 적용
-        const bpmValue = parseInt(this.ui.$bpm.value) || DEFAULT_BPM;
-        this.updateTempo(bpmValue);
-
         // 게임 상태 설정
         this.running = true;
         this.startTime = performance.now() / 1000;
@@ -430,7 +426,7 @@ export class Game {
         console.log(`🎵 BPM 변경: ${this.bpm} → ${newBpm}`);
 
         this.bpm = newBpm;
-        this.ui.$bpm.value = newBpm;
+        this.ui.$bpm.textContent = newBpm;
 
         // 모든 캐릭터 업데이트
         this.updateAllCharactersBPM(newBpm);
