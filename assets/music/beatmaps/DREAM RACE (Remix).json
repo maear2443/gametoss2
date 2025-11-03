@@ -1,0 +1,3038 @@
+{
+  "metadata": {
+    "filename": "DREAM RACE (Remix).mp3",
+    "duration": 183,
+    "bpm": 120,
+    "analyzed_with": "simple_generator"
+  },
+  "beats": {
+    "all_beats": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0,
+      10.5,
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0,
+      13.5,
+      14.0,
+      14.5,
+      15.0,
+      15.5,
+      16.0,
+      16.5,
+      17.0,
+      17.5,
+      18.0,
+      18.5,
+      19.0,
+      19.5,
+      20.0,
+      20.5,
+      21.0,
+      21.5,
+      22.0,
+      22.5,
+      23.0,
+      23.5,
+      24.0,
+      24.5,
+      25.0,
+      25.5,
+      26.0,
+      26.5,
+      27.0,
+      27.5,
+      28.0,
+      28.5,
+      29.0,
+      29.5,
+      30.0,
+      30.5,
+      31.0,
+      31.5,
+      32.0,
+      32.5,
+      33.0,
+      33.5,
+      34.0,
+      34.5,
+      35.0,
+      35.5,
+      36.0,
+      36.5,
+      37.0,
+      37.5,
+      38.0,
+      38.5,
+      39.0,
+      39.5,
+      40.0,
+      40.5,
+      41.0,
+      41.5,
+      42.0,
+      42.5,
+      43.0,
+      43.5,
+      44.0,
+      44.5,
+      45.0,
+      45.5,
+      46.0,
+      46.5,
+      47.0,
+      47.5,
+      48.0,
+      48.5,
+      49.0,
+      49.5,
+      50.0,
+      50.5,
+      51.0,
+      51.5,
+      52.0,
+      52.5,
+      53.0,
+      53.5,
+      54.0,
+      54.5,
+      55.0,
+      55.5,
+      56.0,
+      56.5,
+      57.0,
+      57.5,
+      58.0,
+      58.5,
+      59.0,
+      59.5,
+      60.0,
+      60.5,
+      61.0,
+      61.5,
+      62.0,
+      62.5,
+      63.0,
+      63.5,
+      64.0,
+      64.5,
+      65.0,
+      65.5,
+      66.0,
+      66.5,
+      67.0,
+      67.5,
+      68.0,
+      68.5,
+      69.0,
+      69.5,
+      70.0,
+      70.5,
+      71.0,
+      71.5,
+      72.0,
+      72.5,
+      73.0,
+      73.5,
+      74.0,
+      74.5,
+      75.0,
+      75.5,
+      76.0,
+      76.5,
+      77.0,
+      77.5,
+      78.0,
+      78.5,
+      79.0,
+      79.5,
+      80.0,
+      80.5,
+      81.0,
+      81.5,
+      82.0,
+      82.5,
+      83.0,
+      83.5,
+      84.0,
+      84.5,
+      85.0,
+      85.5,
+      86.0,
+      86.5,
+      87.0,
+      87.5,
+      88.0,
+      88.5,
+      89.0,
+      89.5,
+      90.0,
+      90.5,
+      91.0,
+      91.5,
+      92.0,
+      92.5,
+      93.0,
+      93.5,
+      94.0,
+      94.5,
+      95.0,
+      95.5,
+      96.0,
+      96.5,
+      97.0,
+      97.5,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      100.0,
+      100.5,
+      101.0,
+      101.5,
+      102.0,
+      102.5,
+      103.0,
+      103.5,
+      104.0,
+      104.5,
+      105.0,
+      105.5,
+      106.0,
+      106.5,
+      107.0,
+      107.5,
+      108.0,
+      108.5,
+      109.0,
+      109.5,
+      110.0,
+      110.5,
+      111.0,
+      111.5,
+      112.0,
+      112.5,
+      113.0,
+      113.5,
+      114.0,
+      114.5,
+      115.0,
+      115.5,
+      116.0,
+      116.5,
+      117.0,
+      117.5,
+      118.0,
+      118.5,
+      119.0,
+      119.5,
+      120.0,
+      120.5,
+      121.0,
+      121.5,
+      122.0,
+      122.5,
+      123.0,
+      123.5,
+      124.0,
+      124.5,
+      125.0,
+      125.5,
+      126.0,
+      126.5,
+      127.0,
+      127.5,
+      128.0,
+      128.5,
+      129.0,
+      129.5,
+      130.0,
+      130.5,
+      131.0,
+      131.5,
+      132.0,
+      132.5,
+      133.0,
+      133.5,
+      134.0,
+      134.5,
+      135.0,
+      135.5,
+      136.0,
+      136.5,
+      137.0,
+      137.5,
+      138.0,
+      138.5,
+      139.0,
+      139.5,
+      140.0,
+      140.5,
+      141.0,
+      141.5,
+      142.0,
+      142.5,
+      143.0,
+      143.5,
+      144.0,
+      144.5,
+      145.0,
+      145.5,
+      146.0,
+      146.5,
+      147.0,
+      147.5,
+      148.0,
+      148.5,
+      149.0,
+      149.5,
+      150.0,
+      150.5,
+      151.0,
+      151.5,
+      152.0,
+      152.5,
+      153.0,
+      153.5,
+      154.0,
+      154.5,
+      155.0,
+      155.5,
+      156.0,
+      156.5,
+      157.0,
+      157.5,
+      158.0,
+      158.5,
+      159.0,
+      159.5,
+      160.0,
+      160.5,
+      161.0,
+      161.5,
+      162.0,
+      162.5,
+      163.0,
+      163.5,
+      164.0,
+      164.5,
+      165.0,
+      165.5,
+      166.0,
+      166.5,
+      167.0,
+      167.5,
+      168.0,
+      168.5,
+      169.0,
+      169.5,
+      170.0,
+      170.5,
+      171.0,
+      171.5,
+      172.0,
+      172.5,
+      173.0,
+      173.5,
+      174.0,
+      174.5,
+      175.0,
+      175.5,
+      176.0,
+      176.5,
+      177.0,
+      177.5,
+      178.0,
+      178.5,
+      179.0,
+      179.5,
+      180.0,
+      180.5,
+      181.0,
+      181.5,
+      182.0,
+      182.5
+    ],
+    "onsets": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0,
+      10.5,
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0,
+      13.5,
+      14.0,
+      14.5,
+      15.0,
+      15.5,
+      16.0,
+      16.5,
+      17.0,
+      17.5,
+      18.0,
+      18.5,
+      19.0,
+      19.5,
+      20.0,
+      20.5,
+      21.0,
+      21.5,
+      22.0,
+      22.5,
+      23.0,
+      23.5,
+      24.0,
+      24.5,
+      25.0,
+      25.5,
+      26.0,
+      26.5,
+      27.0,
+      27.5,
+      28.0,
+      28.5,
+      29.0,
+      29.5,
+      30.0,
+      30.5,
+      31.0,
+      31.5,
+      32.0,
+      32.5,
+      33.0,
+      33.5,
+      34.0,
+      34.5,
+      35.0,
+      35.5,
+      36.0,
+      36.5,
+      37.0,
+      37.5,
+      38.0,
+      38.5,
+      39.0,
+      39.5,
+      40.0,
+      40.5,
+      41.0,
+      41.5,
+      42.0,
+      42.5,
+      43.0,
+      43.5,
+      44.0,
+      44.5,
+      45.0,
+      45.5,
+      46.0,
+      46.5,
+      47.0,
+      47.5,
+      48.0,
+      48.5,
+      49.0,
+      49.5,
+      50.0,
+      50.5,
+      51.0,
+      51.5,
+      52.0,
+      52.5,
+      53.0,
+      53.5,
+      54.0,
+      54.5,
+      55.0,
+      55.5,
+      56.0,
+      56.5,
+      57.0,
+      57.5,
+      58.0,
+      58.5,
+      59.0,
+      59.5,
+      60.0,
+      60.5,
+      61.0,
+      61.5,
+      62.0,
+      62.5,
+      63.0,
+      63.5,
+      64.0,
+      64.5,
+      65.0,
+      65.5,
+      66.0,
+      66.5,
+      67.0,
+      67.5,
+      68.0,
+      68.5,
+      69.0,
+      69.5,
+      70.0,
+      70.5,
+      71.0,
+      71.5,
+      72.0,
+      72.5,
+      73.0,
+      73.5,
+      74.0,
+      74.5,
+      75.0,
+      75.5,
+      76.0,
+      76.5,
+      77.0,
+      77.5,
+      78.0,
+      78.5,
+      79.0,
+      79.5,
+      80.0,
+      80.5,
+      81.0,
+      81.5,
+      82.0,
+      82.5,
+      83.0,
+      83.5,
+      84.0,
+      84.5,
+      85.0,
+      85.5,
+      86.0,
+      86.5,
+      87.0,
+      87.5,
+      88.0,
+      88.5,
+      89.0,
+      89.5,
+      90.0,
+      90.5,
+      91.0,
+      91.5,
+      92.0,
+      92.5,
+      93.0,
+      93.5,
+      94.0,
+      94.5,
+      95.0,
+      95.5,
+      96.0,
+      96.5,
+      97.0,
+      97.5,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      100.0,
+      100.5,
+      101.0,
+      101.5,
+      102.0,
+      102.5,
+      103.0,
+      103.5,
+      104.0,
+      104.5,
+      105.0,
+      105.5,
+      106.0,
+      106.5,
+      107.0,
+      107.5,
+      108.0,
+      108.5,
+      109.0,
+      109.5,
+      110.0,
+      110.5,
+      111.0,
+      111.5,
+      112.0,
+      112.5,
+      113.0,
+      113.5,
+      114.0,
+      114.5,
+      115.0,
+      115.5,
+      116.0,
+      116.5,
+      117.0,
+      117.5,
+      118.0,
+      118.5,
+      119.0,
+      119.5,
+      120.0,
+      120.5,
+      121.0,
+      121.5,
+      122.0,
+      122.5,
+      123.0,
+      123.5,
+      124.0,
+      124.5,
+      125.0,
+      125.5,
+      126.0,
+      126.5,
+      127.0,
+      127.5,
+      128.0,
+      128.5,
+      129.0,
+      129.5,
+      130.0,
+      130.5,
+      131.0,
+      131.5,
+      132.0,
+      132.5,
+      133.0,
+      133.5,
+      134.0,
+      134.5,
+      135.0,
+      135.5,
+      136.0,
+      136.5,
+      137.0,
+      137.5,
+      138.0,
+      138.5,
+      139.0,
+      139.5,
+      140.0,
+      140.5,
+      141.0,
+      141.5,
+      142.0,
+      142.5,
+      143.0,
+      143.5,
+      144.0,
+      144.5,
+      145.0,
+      145.5,
+      146.0,
+      146.5,
+      147.0,
+      147.5,
+      148.0,
+      148.5,
+      149.0,
+      149.5,
+      150.0,
+      150.5,
+      151.0,
+      151.5,
+      152.0,
+      152.5,
+      153.0,
+      153.5,
+      154.0,
+      154.5,
+      155.0,
+      155.5,
+      156.0,
+      156.5,
+      157.0,
+      157.5,
+      158.0,
+      158.5,
+      159.0,
+      159.5,
+      160.0,
+      160.5,
+      161.0,
+      161.5,
+      162.0,
+      162.5,
+      163.0,
+      163.5,
+      164.0,
+      164.5,
+      165.0,
+      165.5,
+      166.0,
+      166.5,
+      167.0,
+      167.5,
+      168.0,
+      168.5,
+      169.0,
+      169.5,
+      170.0,
+      170.5,
+      171.0,
+      171.5,
+      172.0,
+      172.5,
+      173.0,
+      173.5,
+      174.0,
+      174.5,
+      175.0,
+      175.5,
+      176.0,
+      176.5,
+      177.0,
+      177.5,
+      178.0,
+      178.5,
+      179.0,
+      179.5,
+      180.0,
+      180.5,
+      181.0,
+      181.5,
+      182.0,
+      182.5
+    ],
+    "downbeats": [
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      26.0,
+      28.0,
+      30.0,
+      32.0,
+      34.0,
+      36.0,
+      38.0,
+      40.0,
+      42.0,
+      44.0,
+      46.0,
+      48.0,
+      50.0,
+      52.0,
+      54.0,
+      56.0,
+      58.0,
+      60.0,
+      62.0,
+      64.0,
+      66.0,
+      68.0,
+      70.0,
+      72.0,
+      74.0,
+      76.0,
+      78.0,
+      80.0,
+      82.0,
+      84.0,
+      86.0,
+      88.0,
+      90.0,
+      92.0,
+      94.0,
+      96.0,
+      98.0,
+      100.0,
+      102.0,
+      104.0,
+      106.0,
+      108.0,
+      110.0,
+      112.0,
+      114.0,
+      116.0,
+      118.0,
+      120.0,
+      122.0,
+      124.0,
+      126.0,
+      128.0,
+      130.0,
+      132.0,
+      134.0,
+      136.0,
+      138.0,
+      140.0,
+      142.0,
+      144.0,
+      146.0,
+      148.0,
+      150.0,
+      152.0,
+      154.0,
+      156.0,
+      158.0,
+      160.0,
+      162.0,
+      164.0,
+      166.0,
+      168.0,
+      170.0,
+      172.0,
+      174.0,
+      176.0,
+      178.0,
+      180.0,
+      182.0
+    ]
+  },
+  "game_events": [
+    {
+      "time": 0.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 0
+    },
+    {
+      "time": 0.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 1
+    },
+    {
+      "time": 1.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 2
+    },
+    {
+      "time": 1.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 3
+    },
+    {
+      "time": 2.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 4
+    },
+    {
+      "time": 2.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 5
+    },
+    {
+      "time": 3.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 6
+    },
+    {
+      "time": 3.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 7
+    },
+    {
+      "time": 4.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 8
+    },
+    {
+      "time": 4.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 9
+    },
+    {
+      "time": 5.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 10
+    },
+    {
+      "time": 5.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 11
+    },
+    {
+      "time": 6.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 12
+    },
+    {
+      "time": 6.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 13
+    },
+    {
+      "time": 7.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 14
+    },
+    {
+      "time": 7.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 15
+    },
+    {
+      "time": 8.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 16
+    },
+    {
+      "time": 8.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 17
+    },
+    {
+      "time": 9.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 18
+    },
+    {
+      "time": 9.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 19
+    },
+    {
+      "time": 10.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 20
+    },
+    {
+      "time": 10.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 21
+    },
+    {
+      "time": 11.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 22
+    },
+    {
+      "time": 11.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 23
+    },
+    {
+      "time": 12.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 24
+    },
+    {
+      "time": 12.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 25
+    },
+    {
+      "time": 13.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 26
+    },
+    {
+      "time": 13.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 27
+    },
+    {
+      "time": 14.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 28
+    },
+    {
+      "time": 14.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 29
+    },
+    {
+      "time": 15.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 30
+    },
+    {
+      "time": 15.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 31
+    },
+    {
+      "time": 16.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 32
+    },
+    {
+      "time": 16.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 33
+    },
+    {
+      "time": 17.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 34
+    },
+    {
+      "time": 17.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 35
+    },
+    {
+      "time": 18.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 36
+    },
+    {
+      "time": 18.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 37
+    },
+    {
+      "time": 19.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 38
+    },
+    {
+      "time": 19.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 39
+    },
+    {
+      "time": 20.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 40
+    },
+    {
+      "time": 20.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 41
+    },
+    {
+      "time": 21.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 42
+    },
+    {
+      "time": 21.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 43
+    },
+    {
+      "time": 22.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 44
+    },
+    {
+      "time": 22.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 45
+    },
+    {
+      "time": 23.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 46
+    },
+    {
+      "time": 23.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 47
+    },
+    {
+      "time": 24.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 48
+    },
+    {
+      "time": 24.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 49
+    },
+    {
+      "time": 25.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 50
+    },
+    {
+      "time": 25.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 51
+    },
+    {
+      "time": 26.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 52
+    },
+    {
+      "time": 26.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 53
+    },
+    {
+      "time": 27.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 54
+    },
+    {
+      "time": 27.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 55
+    },
+    {
+      "time": 28.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 56
+    },
+    {
+      "time": 28.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 57
+    },
+    {
+      "time": 29.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 58
+    },
+    {
+      "time": 29.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 59
+    },
+    {
+      "time": 30.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 60
+    },
+    {
+      "time": 30.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 61
+    },
+    {
+      "time": 31.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 62
+    },
+    {
+      "time": 31.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 63
+    },
+    {
+      "time": 32.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 64
+    },
+    {
+      "time": 32.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 65
+    },
+    {
+      "time": 33.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 66
+    },
+    {
+      "time": 33.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 67
+    },
+    {
+      "time": 34.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 68
+    },
+    {
+      "time": 34.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 69
+    },
+    {
+      "time": 35.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 70
+    },
+    {
+      "time": 35.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 71
+    },
+    {
+      "time": 36.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 72
+    },
+    {
+      "time": 36.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 73
+    },
+    {
+      "time": 37.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 74
+    },
+    {
+      "time": 37.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 75
+    },
+    {
+      "time": 38.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 76
+    },
+    {
+      "time": 38.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 77
+    },
+    {
+      "time": 39.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 78
+    },
+    {
+      "time": 39.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 79
+    },
+    {
+      "time": 40.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 80
+    },
+    {
+      "time": 40.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 81
+    },
+    {
+      "time": 41.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 82
+    },
+    {
+      "time": 41.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 83
+    },
+    {
+      "time": 42.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 84
+    },
+    {
+      "time": 42.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 85
+    },
+    {
+      "time": 43.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 86
+    },
+    {
+      "time": 43.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 87
+    },
+    {
+      "time": 44.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 88
+    },
+    {
+      "time": 44.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 89
+    },
+    {
+      "time": 45.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 90
+    },
+    {
+      "time": 45.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 91
+    },
+    {
+      "time": 46.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 92
+    },
+    {
+      "time": 46.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 93
+    },
+    {
+      "time": 47.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 94
+    },
+    {
+      "time": 47.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 95
+    },
+    {
+      "time": 48.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 96
+    },
+    {
+      "time": 48.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 97
+    },
+    {
+      "time": 49.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 98
+    },
+    {
+      "time": 49.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 99
+    },
+    {
+      "time": 50.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 100
+    },
+    {
+      "time": 50.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 101
+    },
+    {
+      "time": 51.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 102
+    },
+    {
+      "time": 51.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 103
+    },
+    {
+      "time": 52.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 104
+    },
+    {
+      "time": 52.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 105
+    },
+    {
+      "time": 53.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 106
+    },
+    {
+      "time": 53.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 107
+    },
+    {
+      "time": 54.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 108
+    },
+    {
+      "time": 54.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 109
+    },
+    {
+      "time": 55.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 110
+    },
+    {
+      "time": 55.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 111
+    },
+    {
+      "time": 56.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 112
+    },
+    {
+      "time": 56.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 113
+    },
+    {
+      "time": 57.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 114
+    },
+    {
+      "time": 57.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 115
+    },
+    {
+      "time": 58.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 116
+    },
+    {
+      "time": 58.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 117
+    },
+    {
+      "time": 59.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 118
+    },
+    {
+      "time": 59.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 119
+    },
+    {
+      "time": 60.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 120
+    },
+    {
+      "time": 60.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 121
+    },
+    {
+      "time": 61.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 122
+    },
+    {
+      "time": 61.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 123
+    },
+    {
+      "time": 62.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 124
+    },
+    {
+      "time": 62.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 125
+    },
+    {
+      "time": 63.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 126
+    },
+    {
+      "time": 63.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 127
+    },
+    {
+      "time": 64.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 128
+    },
+    {
+      "time": 64.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 129
+    },
+    {
+      "time": 65.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 130
+    },
+    {
+      "time": 65.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 131
+    },
+    {
+      "time": 66.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 132
+    },
+    {
+      "time": 66.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 133
+    },
+    {
+      "time": 67.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 134
+    },
+    {
+      "time": 67.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 135
+    },
+    {
+      "time": 68.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 136
+    },
+    {
+      "time": 68.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 137
+    },
+    {
+      "time": 69.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 138
+    },
+    {
+      "time": 69.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 139
+    },
+    {
+      "time": 70.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 140
+    },
+    {
+      "time": 70.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 141
+    },
+    {
+      "time": 71.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 142
+    },
+    {
+      "time": 71.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 143
+    },
+    {
+      "time": 72.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 144
+    },
+    {
+      "time": 72.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 145
+    },
+    {
+      "time": 73.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 146
+    },
+    {
+      "time": 73.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 147
+    },
+    {
+      "time": 74.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 148
+    },
+    {
+      "time": 74.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 149
+    },
+    {
+      "time": 75.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 150
+    },
+    {
+      "time": 75.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 151
+    },
+    {
+      "time": 76.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 152
+    },
+    {
+      "time": 76.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 153
+    },
+    {
+      "time": 77.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 154
+    },
+    {
+      "time": 77.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 155
+    },
+    {
+      "time": 78.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 156
+    },
+    {
+      "time": 78.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 157
+    },
+    {
+      "time": 79.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 158
+    },
+    {
+      "time": 79.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 159
+    },
+    {
+      "time": 80.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 160
+    },
+    {
+      "time": 80.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 161
+    },
+    {
+      "time": 81.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 162
+    },
+    {
+      "time": 81.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 163
+    },
+    {
+      "time": 82.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 164
+    },
+    {
+      "time": 82.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 165
+    },
+    {
+      "time": 83.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 166
+    },
+    {
+      "time": 83.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 167
+    },
+    {
+      "time": 84.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 168
+    },
+    {
+      "time": 84.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 169
+    },
+    {
+      "time": 85.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 170
+    },
+    {
+      "time": 85.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 171
+    },
+    {
+      "time": 86.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 172
+    },
+    {
+      "time": 86.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 173
+    },
+    {
+      "time": 87.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 174
+    },
+    {
+      "time": 87.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 175
+    },
+    {
+      "time": 88.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 176
+    },
+    {
+      "time": 88.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 177
+    },
+    {
+      "time": 89.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 178
+    },
+    {
+      "time": 89.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 179
+    },
+    {
+      "time": 90.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 180
+    },
+    {
+      "time": 90.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 181
+    },
+    {
+      "time": 91.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 182
+    },
+    {
+      "time": 91.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 183
+    },
+    {
+      "time": 92.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 184
+    },
+    {
+      "time": 92.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 185
+    },
+    {
+      "time": 93.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 186
+    },
+    {
+      "time": 93.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 187
+    },
+    {
+      "time": 94.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 188
+    },
+    {
+      "time": 94.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 189
+    },
+    {
+      "time": 95.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 190
+    },
+    {
+      "time": 95.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 191
+    },
+    {
+      "time": 96.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 192
+    },
+    {
+      "time": 96.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 193
+    },
+    {
+      "time": 97.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 194
+    },
+    {
+      "time": 97.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 195
+    },
+    {
+      "time": 98.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 196
+    },
+    {
+      "time": 98.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 197
+    },
+    {
+      "time": 99.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 198
+    },
+    {
+      "time": 99.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 199
+    },
+    {
+      "time": 100.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 200
+    },
+    {
+      "time": 100.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 201
+    },
+    {
+      "time": 101.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 202
+    },
+    {
+      "time": 101.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 203
+    },
+    {
+      "time": 102.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 204
+    },
+    {
+      "time": 102.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 205
+    },
+    {
+      "time": 103.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 206
+    },
+    {
+      "time": 103.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 207
+    },
+    {
+      "time": 104.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 208
+    },
+    {
+      "time": 104.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 209
+    },
+    {
+      "time": 105.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 210
+    },
+    {
+      "time": 105.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 211
+    },
+    {
+      "time": 106.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 212
+    },
+    {
+      "time": 106.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 213
+    },
+    {
+      "time": 107.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 214
+    },
+    {
+      "time": 107.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 215
+    },
+    {
+      "time": 108.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 216
+    },
+    {
+      "time": 108.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 217
+    },
+    {
+      "time": 109.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 218
+    },
+    {
+      "time": 109.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 219
+    },
+    {
+      "time": 110.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 220
+    },
+    {
+      "time": 110.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 221
+    },
+    {
+      "time": 111.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 222
+    },
+    {
+      "time": 111.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 223
+    },
+    {
+      "time": 112.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 224
+    },
+    {
+      "time": 112.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 225
+    },
+    {
+      "time": 113.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 226
+    },
+    {
+      "time": 113.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 227
+    },
+    {
+      "time": 114.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 228
+    },
+    {
+      "time": 114.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 229
+    },
+    {
+      "time": 115.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 230
+    },
+    {
+      "time": 115.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 231
+    },
+    {
+      "time": 116.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 232
+    },
+    {
+      "time": 116.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 233
+    },
+    {
+      "time": 117.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 234
+    },
+    {
+      "time": 117.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 235
+    },
+    {
+      "time": 118.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 236
+    },
+    {
+      "time": 118.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 237
+    },
+    {
+      "time": 119.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 238
+    },
+    {
+      "time": 119.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 239
+    },
+    {
+      "time": 120.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 240
+    },
+    {
+      "time": 120.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 241
+    },
+    {
+      "time": 121.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 242
+    },
+    {
+      "time": 121.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 243
+    },
+    {
+      "time": 122.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 244
+    },
+    {
+      "time": 122.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 245
+    },
+    {
+      "time": 123.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 246
+    },
+    {
+      "time": 123.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 247
+    },
+    {
+      "time": 124.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 248
+    },
+    {
+      "time": 124.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 249
+    },
+    {
+      "time": 125.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 250
+    },
+    {
+      "time": 125.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 251
+    },
+    {
+      "time": 126.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 252
+    },
+    {
+      "time": 126.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 253
+    },
+    {
+      "time": 127.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 254
+    },
+    {
+      "time": 127.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 255
+    },
+    {
+      "time": 128.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 256
+    },
+    {
+      "time": 128.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 257
+    },
+    {
+      "time": 129.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 258
+    },
+    {
+      "time": 129.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 259
+    },
+    {
+      "time": 130.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 260
+    },
+    {
+      "time": 130.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 261
+    },
+    {
+      "time": 131.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 262
+    },
+    {
+      "time": 131.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 263
+    },
+    {
+      "time": 132.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 264
+    },
+    {
+      "time": 132.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 265
+    },
+    {
+      "time": 133.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 266
+    },
+    {
+      "time": 133.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 267
+    },
+    {
+      "time": 134.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 268
+    },
+    {
+      "time": 134.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 269
+    },
+    {
+      "time": 135.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 270
+    },
+    {
+      "time": 135.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 271
+    },
+    {
+      "time": 136.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 272
+    },
+    {
+      "time": 136.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 273
+    },
+    {
+      "time": 137.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 274
+    },
+    {
+      "time": 137.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 275
+    },
+    {
+      "time": 138.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 276
+    },
+    {
+      "time": 138.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 277
+    },
+    {
+      "time": 139.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 278
+    },
+    {
+      "time": 139.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 279
+    },
+    {
+      "time": 140.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 280
+    },
+    {
+      "time": 140.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 281
+    },
+    {
+      "time": 141.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 282
+    },
+    {
+      "time": 141.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 283
+    },
+    {
+      "time": 142.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 284
+    },
+    {
+      "time": 142.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 285
+    },
+    {
+      "time": 143.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 286
+    },
+    {
+      "time": 143.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 287
+    },
+    {
+      "time": 144.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 288
+    },
+    {
+      "time": 144.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 289
+    },
+    {
+      "time": 145.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 290
+    },
+    {
+      "time": 145.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 291
+    },
+    {
+      "time": 146.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 292
+    },
+    {
+      "time": 146.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 293
+    },
+    {
+      "time": 147.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 294
+    },
+    {
+      "time": 147.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 295
+    },
+    {
+      "time": 148.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 296
+    },
+    {
+      "time": 148.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 297
+    },
+    {
+      "time": 149.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 298
+    },
+    {
+      "time": 149.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 299
+    },
+    {
+      "time": 150.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 300
+    },
+    {
+      "time": 150.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 301
+    },
+    {
+      "time": 151.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 302
+    },
+    {
+      "time": 151.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 303
+    },
+    {
+      "time": 152.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 304
+    },
+    {
+      "time": 152.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 305
+    },
+    {
+      "time": 153.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 306
+    },
+    {
+      "time": 153.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 307
+    },
+    {
+      "time": 154.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 308
+    },
+    {
+      "time": 154.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 309
+    },
+    {
+      "time": 155.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 310
+    },
+    {
+      "time": 155.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 311
+    },
+    {
+      "time": 156.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 312
+    },
+    {
+      "time": 156.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 313
+    },
+    {
+      "time": 157.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 314
+    },
+    {
+      "time": 157.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 315
+    },
+    {
+      "time": 158.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 316
+    },
+    {
+      "time": 158.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 317
+    },
+    {
+      "time": 159.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 318
+    },
+    {
+      "time": 159.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 319
+    },
+    {
+      "time": 160.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 320
+    },
+    {
+      "time": 160.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 321
+    },
+    {
+      "time": 161.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 322
+    },
+    {
+      "time": 161.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 323
+    },
+    {
+      "time": 162.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 324
+    },
+    {
+      "time": 162.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 325
+    },
+    {
+      "time": 163.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 326
+    },
+    {
+      "time": 163.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 327
+    },
+    {
+      "time": 164.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 328
+    },
+    {
+      "time": 164.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 329
+    },
+    {
+      "time": 165.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 330
+    },
+    {
+      "time": 165.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 331
+    },
+    {
+      "time": 166.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 332
+    },
+    {
+      "time": 166.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 333
+    },
+    {
+      "time": 167.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 334
+    },
+    {
+      "time": 167.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 335
+    },
+    {
+      "time": 168.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 336
+    },
+    {
+      "time": 168.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 337
+    },
+    {
+      "time": 169.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 338
+    },
+    {
+      "time": 169.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 339
+    },
+    {
+      "time": 170.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 340
+    },
+    {
+      "time": 170.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 341
+    },
+    {
+      "time": 171.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 342
+    },
+    {
+      "time": 171.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 343
+    },
+    {
+      "time": 172.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 344
+    },
+    {
+      "time": 172.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 345
+    },
+    {
+      "time": 173.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 346
+    },
+    {
+      "time": 173.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 347
+    },
+    {
+      "time": 174.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 348
+    },
+    {
+      "time": 174.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 349
+    },
+    {
+      "time": 175.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 350
+    },
+    {
+      "time": 175.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 351
+    },
+    {
+      "time": 176.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 352
+    },
+    {
+      "time": 176.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 353
+    },
+    {
+      "time": 177.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 354
+    },
+    {
+      "time": 177.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 355
+    },
+    {
+      "time": 178.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 356
+    },
+    {
+      "time": 178.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 357
+    },
+    {
+      "time": 179.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 358
+    },
+    {
+      "time": 179.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 359
+    },
+    {
+      "time": 180.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 360
+    },
+    {
+      "time": 180.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 361
+    },
+    {
+      "time": 181.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 362
+    },
+    {
+      "time": 181.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 363
+    },
+    {
+      "time": 182.0,
+      "type": "spawn_character",
+      "is_downbeat": true,
+      "beat_index": 364
+    },
+    {
+      "time": 182.5,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "beat_index": 365
+    }
+  ]
+}

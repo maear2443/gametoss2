@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""
+간단한 비트맵 생성 도구 (Librosa 없이)
+BPM 정보를 기반으로 기본 비트맵을 생성합니다.
+"""
+
+import json
+import os
+
+def generate_beatmap(song_name, bpm, duration, output_dir="assets/music/beatmaps"):
+    """
+    BPM 정보를 기반으로 간단한 비트맵을 생성합니다.
+    """
+    print(f"🎵 비트맵 생성 중: {song_name}")
+
+    # 비트 간격 계산 (초)
+    beat_interval = 60.0 / bpm
+
+    # 전체 비트 수 계산
+    num_beats = int(duration / beat_interval)
+
+    # 비트 타임스탬프 생성
+    beats = [i * beat_interval for i in range(num_beats)]
+
+    # 다운비트 (4비트마다)
+    downbeats = [beats[i] for i in range(0, len(beats), 4)]
+
+    # 게임 이벤트 생성
+    game_events = []
+    for i, beat_time in enumerate(beats):
+        is_downbeat = i % 4 == 0
+        game_events.append({
+            "time": round(beat_time, 3),
+            "type": "spawn_character",
+            "is_downbeat": is_downbeat,
+            "beat_index": i
+        })
+
+    # 비트맵 데이터 구조
+    beatmap = {
+        "metadata": {
+            "filename": song_name,
+            "duration": duration,
+            "bpm": bpm,
+            "analyzed_with": "simple_generator"
+        },
+        "beats": {
+            "all_beats": [round(b, 3) for b in beats],
+            "onsets": [round(b, 3) for b in beats],  # 간단 버전에서는 비트와 동일
+            "downbeats": [round(b, 3) for b in downbeats]
+        },
+        "game_events": game_events
+    }
+
+    # 디렉토리 생성
+    os.makedirs(output_dir, exist_ok=True)
+
+    # JSON 저장
+    output_path = os.path.join(output_dir, f"{song_name.replace('.mp3', '')}.json")
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(beatmap, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ 완료!")
+    print(f"   - BPM: {bpm}")
+    print(f"   - 곡 길이: {duration}초")
+    print(f"   - 비트 간격: {beat_interval:.3f}초")
+    print(f"   - 총 비트: {len(beats)}개")
+    print(f"   - 게임 이벤트: {len(game_events)}개")
+    print(f"   - 저장 위치: {output_path}")
+    print()
+
+if __name__ == "__main__":
+    print("=" * 60)
+    print("🎵 간단한 비트맵 생성 도구")
+    print("=" * 60)
+    print()
+
+    # playlist.json 정보 기반
+    songs = [
+        {
+            "name": "DREAM RACE (Remix).mp3",
+            "bpm": 120,
+            "duration": 183
+        },
+        {
+            "name": "BREAK FREE.mp3",
+            "bpm": 140,
+            "duration": 277
+        },
+        {
+            "name": "FAKE FRIEND.mp3",
+            "bpm": 130,
+            "duration": 195
+        }
+    ]
+
+    for song in songs:
+        generate_beatmap(song["name"], song["bpm"], song["duration"])
+
+    print("🎉 모든 비트맵 생성 완료!")
+    print()
+    print("💡 참고: 이것은 BPM 기반 간단 비트맵입니다.")
+    print("   더 정확한 분석을 위해서는 analyze_music.py를 사용하세요.")
