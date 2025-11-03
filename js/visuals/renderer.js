@@ -169,7 +169,7 @@ function renderCharacters(characters, currentTime) {
     const bottomY = height * 0.85; // 화면 하단 85% 지점
 
     // 겹침 효과를 위해 간격을 줄임 (캐릭터 크기보다 작게)
-    const overlapSpacing = CHARACTER_SIZE * 0.7; // 30% 겹침
+    const overlapSpacing = CHARACTER_SIZE * 0.5; // 50% 겹침
 
     // 역순으로 그려서 첫 번째 캐릭터가 맨 위에 오도록 (Z-index)
     for (let i = characters.length - 1; i >= 0; i--) {
