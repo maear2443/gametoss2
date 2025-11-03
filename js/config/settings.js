@@ -29,16 +29,16 @@ export const CHARACTER_SPACING = 80;      // 캐릭터 간 세로 간격 (픽셀
  *
  * BPM 120 기준:
  * - 1비트 = 60 / 120 = 0.5초
- * - stage1: 1.5비트 = 0.75초
- * - stage2: 1.5비트 = 0.75초
- * - stage3: 1.5비트 = 0.75초
+ * - stage1: 1비트 = 0.5초
+ * - stage2: 1비트 = 0.5초
+ * - stage3: 1비트 = 0.5초
  *
- * 총 2.25초 후 자동 MISS
+ * 총 1.5초 후 자동 MISS (빠른 리듬 게임!)
  */
 export const STAGE_DURATIONS = {
-    stage1: 1.5,  // Stage 1 지속 시간 (비트)
-    stage2: 1.5,  // Stage 2 지속 시간 (비트)
-    stage3: 1.5   // Stage 3 지속 시간 (비트)
+    stage1: 1,  // Stage 1 지속 시간 (비트)
+    stage2: 1,  // Stage 2 지속 시간 (비트)
+    stage3: 1   // Stage 3 지속 시간 (비트)
 };
 
 // ==============================================

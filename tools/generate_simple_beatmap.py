@@ -10,29 +10,44 @@ import os
 def generate_beatmap(song_name, bpm, duration, output_dir="assets/music/beatmaps"):
     """
     BPM 정보를 기반으로 간단한 비트맵을 생성합니다.
+    반박(0.5비트)마다 이벤트 생성으로 더 빠른 게임플레이!
     """
     print(f"🎵 비트맵 생성 중: {song_name}")
 
     # 비트 간격 계산 (초)
     beat_interval = 60.0 / bpm
 
-    # 전체 비트 수 계산
+    # 반박 간격 (0.5 비트 = 더 촘촘하게!)
+    half_beat_interval = beat_interval / 2.0
+
+    # 전체 비트 수 계산 (기존 비트)
     num_beats = int(duration / beat_interval)
 
-    # 비트 타임스탬프 생성
+    # 반박 기준 이벤트 수
+    num_half_beats = int(duration / half_beat_interval)
+
+    # 비트 타임스탬프 생성 (정박만)
     beats = [i * beat_interval for i in range(num_beats)]
+
+    # 반박 타임스탬프 생성 (0.5비트마다)
+    half_beats = [i * half_beat_interval for i in range(num_half_beats)]
 
     # 다운비트 (4비트마다)
     downbeats = [beats[i] for i in range(0, len(beats), 4)]
 
-    # 게임 이벤트 생성
+    # 게임 이벤트 생성 - 반박마다!
     game_events = []
-    for i, beat_time in enumerate(beats):
-        is_downbeat = i % 4 == 0
+    for i, event_time in enumerate(half_beats):
+        # 정박인지 확인 (짝수 인덱스)
+        is_full_beat = i % 2 == 0
+        # 다운비트인지 확인 (8 반박 = 4 비트마다)
+        is_downbeat = i % 8 == 0
+
         game_events.append({
-            "time": round(beat_time, 3),
+            "time": round(event_time, 3),
             "type": "spawn_character",
             "is_downbeat": is_downbeat,
+            "is_half_beat": not is_full_beat,
             "beat_index": i
         })
 
@@ -65,7 +80,9 @@ def generate_beatmap(song_name, bpm, duration, output_dir="assets/music/beatmaps
     print(f"   - BPM: {bpm}")
     print(f"   - 곡 길이: {duration}초")
     print(f"   - 비트 간격: {beat_interval:.3f}초")
+    print(f"   - 반박 간격: {half_beat_interval:.3f}초 (2배 빠름!)")
     print(f"   - 총 비트: {len(beats)}개")
+    print(f"   - 총 반박: {len(half_beats)}개")
     print(f"   - 게임 이벤트: {len(game_events)}개")
     print(f"   - 저장 위치: {output_path}")
     print()

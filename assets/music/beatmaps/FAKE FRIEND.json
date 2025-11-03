@@ -968,2533 +968,5916 @@
       "time": 0.0,
       "type": "spawn_character",
       "is_downbeat": true,
+      "is_half_beat": false,
       "beat_index": 0
+    },
+    {
+      "time": 0.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 1
     },
     {
       "time": 0.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 1
+      "is_half_beat": false,
+      "beat_index": 2
+    },
+    {
+      "time": 0.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 3
     },
     {
       "time": 0.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 2
+      "is_half_beat": false,
+      "beat_index": 4
+    },
+    {
+      "time": 1.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 5
     },
     {
       "time": 1.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 3
+      "is_half_beat": false,
+      "beat_index": 6
+    },
+    {
+      "time": 1.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 7
     },
     {
       "time": 1.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 4
+      "is_half_beat": false,
+      "beat_index": 8
+    },
+    {
+      "time": 2.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 9
     },
     {
       "time": 2.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 5
+      "is_half_beat": false,
+      "beat_index": 10
+    },
+    {
+      "time": 2.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 11
     },
     {
       "time": 2.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 6
+      "is_half_beat": false,
+      "beat_index": 12
+    },
+    {
+      "time": 3.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 13
     },
     {
       "time": 3.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 7
+      "is_half_beat": false,
+      "beat_index": 14
+    },
+    {
+      "time": 3.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 15
     },
     {
       "time": 3.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 8
+      "is_half_beat": false,
+      "beat_index": 16
+    },
+    {
+      "time": 3.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 17
     },
     {
       "time": 4.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 9
+      "is_half_beat": false,
+      "beat_index": 18
+    },
+    {
+      "time": 4.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 19
     },
     {
       "time": 4.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 10
+      "is_half_beat": false,
+      "beat_index": 20
+    },
+    {
+      "time": 4.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 21
     },
     {
       "time": 5.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 11
+      "is_half_beat": false,
+      "beat_index": 22
+    },
+    {
+      "time": 5.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 23
     },
     {
       "time": 5.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 12
+      "is_half_beat": false,
+      "beat_index": 24
+    },
+    {
+      "time": 5.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 25
     },
     {
       "time": 6.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 13
+      "is_half_beat": false,
+      "beat_index": 26
+    },
+    {
+      "time": 6.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 27
     },
     {
       "time": 6.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 14
+      "is_half_beat": false,
+      "beat_index": 28
+    },
+    {
+      "time": 6.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 29
     },
     {
       "time": 6.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 15
+      "is_half_beat": false,
+      "beat_index": 30
+    },
+    {
+      "time": 7.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 31
     },
     {
       "time": 7.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 16
+      "is_half_beat": false,
+      "beat_index": 32
+    },
+    {
+      "time": 7.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 33
     },
     {
       "time": 7.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 17
+      "is_half_beat": false,
+      "beat_index": 34
+    },
+    {
+      "time": 8.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 35
     },
     {
       "time": 8.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 18
+      "is_half_beat": false,
+      "beat_index": 36
+    },
+    {
+      "time": 8.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 37
     },
     {
       "time": 8.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 19
+      "is_half_beat": false,
+      "beat_index": 38
+    },
+    {
+      "time": 9.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 39
     },
     {
       "time": 9.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 20
+      "is_half_beat": false,
+      "beat_index": 40
+    },
+    {
+      "time": 9.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 41
     },
     {
       "time": 9.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 21
+      "is_half_beat": false,
+      "beat_index": 42
+    },
+    {
+      "time": 9.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 43
     },
     {
       "time": 10.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 22
+      "is_half_beat": false,
+      "beat_index": 44
+    },
+    {
+      "time": 10.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 45
     },
     {
       "time": 10.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 23
+      "is_half_beat": false,
+      "beat_index": 46
+    },
+    {
+      "time": 10.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 47
     },
     {
       "time": 11.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 24
+      "is_half_beat": false,
+      "beat_index": 48
+    },
+    {
+      "time": 11.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 49
     },
     {
       "time": 11.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 25
+      "is_half_beat": false,
+      "beat_index": 50
+    },
+    {
+      "time": 11.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 51
     },
     {
       "time": 12.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 26
+      "is_half_beat": false,
+      "beat_index": 52
+    },
+    {
+      "time": 12.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 53
     },
     {
       "time": 12.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 27
+      "is_half_beat": false,
+      "beat_index": 54
+    },
+    {
+      "time": 12.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 55
     },
     {
       "time": 12.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 28
+      "is_half_beat": false,
+      "beat_index": 56
+    },
+    {
+      "time": 13.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 57
     },
     {
       "time": 13.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 29
+      "is_half_beat": false,
+      "beat_index": 58
+    },
+    {
+      "time": 13.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 59
     },
     {
       "time": 13.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 30
+      "is_half_beat": false,
+      "beat_index": 60
+    },
+    {
+      "time": 14.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 61
     },
     {
       "time": 14.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 31
+      "is_half_beat": false,
+      "beat_index": 62
+    },
+    {
+      "time": 14.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 63
     },
     {
       "time": 14.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 32
+      "is_half_beat": false,
+      "beat_index": 64
+    },
+    {
+      "time": 15.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 65
     },
     {
       "time": 15.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 33
+      "is_half_beat": false,
+      "beat_index": 66
+    },
+    {
+      "time": 15.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 67
     },
     {
       "time": 15.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 34
+      "is_half_beat": false,
+      "beat_index": 68
+    },
+    {
+      "time": 15.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 69
     },
     {
       "time": 16.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 35
+      "is_half_beat": false,
+      "beat_index": 70
+    },
+    {
+      "time": 16.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 71
     },
     {
       "time": 16.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 36
+      "is_half_beat": false,
+      "beat_index": 72
+    },
+    {
+      "time": 16.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 73
     },
     {
       "time": 17.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 37
+      "is_half_beat": false,
+      "beat_index": 74
+    },
+    {
+      "time": 17.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 75
     },
     {
       "time": 17.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 38
+      "is_half_beat": false,
+      "beat_index": 76
+    },
+    {
+      "time": 17.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 77
     },
     {
       "time": 18.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 39
+      "is_half_beat": false,
+      "beat_index": 78
+    },
+    {
+      "time": 18.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 79
     },
     {
       "time": 18.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 40
+      "is_half_beat": false,
+      "beat_index": 80
+    },
+    {
+      "time": 18.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 81
     },
     {
       "time": 18.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 41
+      "is_half_beat": false,
+      "beat_index": 82
+    },
+    {
+      "time": 19.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 83
     },
     {
       "time": 19.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 42
+      "is_half_beat": false,
+      "beat_index": 84
+    },
+    {
+      "time": 19.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 85
     },
     {
       "time": 19.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 43
+      "is_half_beat": false,
+      "beat_index": 86
+    },
+    {
+      "time": 20.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 87
     },
     {
       "time": 20.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 44
+      "is_half_beat": false,
+      "beat_index": 88
+    },
+    {
+      "time": 20.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 89
     },
     {
       "time": 20.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 45
+      "is_half_beat": false,
+      "beat_index": 90
+    },
+    {
+      "time": 21.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 91
     },
     {
       "time": 21.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 46
+      "is_half_beat": false,
+      "beat_index": 92
+    },
+    {
+      "time": 21.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 93
     },
     {
       "time": 21.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 47
+      "is_half_beat": false,
+      "beat_index": 94
+    },
+    {
+      "time": 21.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 95
     },
     {
       "time": 22.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 48
+      "is_half_beat": false,
+      "beat_index": 96
+    },
+    {
+      "time": 22.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 97
     },
     {
       "time": 22.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 49
+      "is_half_beat": false,
+      "beat_index": 98
+    },
+    {
+      "time": 22.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 99
     },
     {
       "time": 23.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 50
+      "is_half_beat": false,
+      "beat_index": 100
+    },
+    {
+      "time": 23.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 101
     },
     {
       "time": 23.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 51
+      "is_half_beat": false,
+      "beat_index": 102
+    },
+    {
+      "time": 23.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 103
     },
     {
       "time": 24.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 52
+      "is_half_beat": false,
+      "beat_index": 104
+    },
+    {
+      "time": 24.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 105
     },
     {
       "time": 24.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 53
+      "is_half_beat": false,
+      "beat_index": 106
+    },
+    {
+      "time": 24.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 107
     },
     {
       "time": 24.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 54
+      "is_half_beat": false,
+      "beat_index": 108
+    },
+    {
+      "time": 25.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 109
     },
     {
       "time": 25.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 55
+      "is_half_beat": false,
+      "beat_index": 110
+    },
+    {
+      "time": 25.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 111
     },
     {
       "time": 25.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 56
+      "is_half_beat": false,
+      "beat_index": 112
+    },
+    {
+      "time": 26.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 113
     },
     {
       "time": 26.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 57
+      "is_half_beat": false,
+      "beat_index": 114
+    },
+    {
+      "time": 26.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 115
     },
     {
       "time": 26.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 58
+      "is_half_beat": false,
+      "beat_index": 116
+    },
+    {
+      "time": 27.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 117
     },
     {
       "time": 27.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 59
+      "is_half_beat": false,
+      "beat_index": 118
+    },
+    {
+      "time": 27.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 119
     },
     {
       "time": 27.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 60
+      "is_half_beat": false,
+      "beat_index": 120
+    },
+    {
+      "time": 27.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 121
     },
     {
       "time": 28.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 61
+      "is_half_beat": false,
+      "beat_index": 122
+    },
+    {
+      "time": 28.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 123
     },
     {
       "time": 28.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 62
+      "is_half_beat": false,
+      "beat_index": 124
+    },
+    {
+      "time": 28.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 125
     },
     {
       "time": 29.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 63
+      "is_half_beat": false,
+      "beat_index": 126
+    },
+    {
+      "time": 29.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 127
     },
     {
       "time": 29.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 64
+      "is_half_beat": false,
+      "beat_index": 128
+    },
+    {
+      "time": 29.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 129
     },
     {
       "time": 30.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 65
+      "is_half_beat": false,
+      "beat_index": 130
+    },
+    {
+      "time": 30.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 131
     },
     {
       "time": 30.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 66
+      "is_half_beat": false,
+      "beat_index": 132
+    },
+    {
+      "time": 30.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 133
     },
     {
       "time": 30.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 67
+      "is_half_beat": false,
+      "beat_index": 134
+    },
+    {
+      "time": 31.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 135
     },
     {
       "time": 31.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 68
+      "is_half_beat": false,
+      "beat_index": 136
+    },
+    {
+      "time": 31.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 137
     },
     {
       "time": 31.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 69
+      "is_half_beat": false,
+      "beat_index": 138
+    },
+    {
+      "time": 32.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 139
     },
     {
       "time": 32.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 70
+      "is_half_beat": false,
+      "beat_index": 140
+    },
+    {
+      "time": 32.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 141
     },
     {
       "time": 32.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 71
+      "is_half_beat": false,
+      "beat_index": 142
+    },
+    {
+      "time": 33.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 143
     },
     {
       "time": 33.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 72
+      "is_half_beat": false,
+      "beat_index": 144
+    },
+    {
+      "time": 33.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 145
     },
     {
       "time": 33.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 73
+      "is_half_beat": false,
+      "beat_index": 146
+    },
+    {
+      "time": 33.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 147
     },
     {
       "time": 34.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 74
+      "is_half_beat": false,
+      "beat_index": 148
+    },
+    {
+      "time": 34.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 149
     },
     {
       "time": 34.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 75
+      "is_half_beat": false,
+      "beat_index": 150
+    },
+    {
+      "time": 34.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 151
     },
     {
       "time": 35.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 76
+      "is_half_beat": false,
+      "beat_index": 152
+    },
+    {
+      "time": 35.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 153
     },
     {
       "time": 35.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 77
+      "is_half_beat": false,
+      "beat_index": 154
+    },
+    {
+      "time": 35.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 155
     },
     {
       "time": 36.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 78
+      "is_half_beat": false,
+      "beat_index": 156
+    },
+    {
+      "time": 36.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 157
     },
     {
       "time": 36.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 79
+      "is_half_beat": false,
+      "beat_index": 158
+    },
+    {
+      "time": 36.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 159
     },
     {
       "time": 36.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 80
+      "is_half_beat": false,
+      "beat_index": 160
+    },
+    {
+      "time": 37.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 161
     },
     {
       "time": 37.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 81
+      "is_half_beat": false,
+      "beat_index": 162
+    },
+    {
+      "time": 37.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 163
     },
     {
       "time": 37.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 82
+      "is_half_beat": false,
+      "beat_index": 164
+    },
+    {
+      "time": 38.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 165
     },
     {
       "time": 38.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 83
+      "is_half_beat": false,
+      "beat_index": 166
+    },
+    {
+      "time": 38.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 167
     },
     {
       "time": 38.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 84
+      "is_half_beat": false,
+      "beat_index": 168
+    },
+    {
+      "time": 39.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 169
     },
     {
       "time": 39.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 85
+      "is_half_beat": false,
+      "beat_index": 170
+    },
+    {
+      "time": 39.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 171
     },
     {
       "time": 39.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 86
+      "is_half_beat": false,
+      "beat_index": 172
+    },
+    {
+      "time": 39.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 173
     },
     {
       "time": 40.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 87
+      "is_half_beat": false,
+      "beat_index": 174
+    },
+    {
+      "time": 40.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 175
     },
     {
       "time": 40.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 88
+      "is_half_beat": false,
+      "beat_index": 176
+    },
+    {
+      "time": 40.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 177
     },
     {
       "time": 41.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 89
+      "is_half_beat": false,
+      "beat_index": 178
+    },
+    {
+      "time": 41.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 179
     },
     {
       "time": 41.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 90
+      "is_half_beat": false,
+      "beat_index": 180
+    },
+    {
+      "time": 41.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 181
     },
     {
       "time": 42.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 91
+      "is_half_beat": false,
+      "beat_index": 182
+    },
+    {
+      "time": 42.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 183
     },
     {
       "time": 42.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 92
+      "is_half_beat": false,
+      "beat_index": 184
+    },
+    {
+      "time": 42.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 185
     },
     {
       "time": 42.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 93
+      "is_half_beat": false,
+      "beat_index": 186
+    },
+    {
+      "time": 43.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 187
     },
     {
       "time": 43.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 94
+      "is_half_beat": false,
+      "beat_index": 188
+    },
+    {
+      "time": 43.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 189
     },
     {
       "time": 43.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 95
+      "is_half_beat": false,
+      "beat_index": 190
+    },
+    {
+      "time": 44.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 191
     },
     {
       "time": 44.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 96
+      "is_half_beat": false,
+      "beat_index": 192
+    },
+    {
+      "time": 44.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 193
     },
     {
       "time": 44.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 97
+      "is_half_beat": false,
+      "beat_index": 194
+    },
+    {
+      "time": 45.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 195
     },
     {
       "time": 45.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 98
+      "is_half_beat": false,
+      "beat_index": 196
+    },
+    {
+      "time": 45.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 197
     },
     {
       "time": 45.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 99
+      "is_half_beat": false,
+      "beat_index": 198
+    },
+    {
+      "time": 45.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 199
     },
     {
       "time": 46.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 100
+      "is_half_beat": false,
+      "beat_index": 200
+    },
+    {
+      "time": 46.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 201
     },
     {
       "time": 46.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 101
+      "is_half_beat": false,
+      "beat_index": 202
+    },
+    {
+      "time": 46.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 203
     },
     {
       "time": 47.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 102
+      "is_half_beat": false,
+      "beat_index": 204
+    },
+    {
+      "time": 47.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 205
     },
     {
       "time": 47.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 103
+      "is_half_beat": false,
+      "beat_index": 206
+    },
+    {
+      "time": 47.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 207
     },
     {
       "time": 48.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 104
+      "is_half_beat": false,
+      "beat_index": 208
+    },
+    {
+      "time": 48.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 209
     },
     {
       "time": 48.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 105
+      "is_half_beat": false,
+      "beat_index": 210
+    },
+    {
+      "time": 48.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 211
     },
     {
       "time": 48.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 106
+      "is_half_beat": false,
+      "beat_index": 212
+    },
+    {
+      "time": 49.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 213
     },
     {
       "time": 49.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 107
+      "is_half_beat": false,
+      "beat_index": 214
+    },
+    {
+      "time": 49.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 215
     },
     {
       "time": 49.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 108
+      "is_half_beat": false,
+      "beat_index": 216
+    },
+    {
+      "time": 50.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 217
     },
     {
       "time": 50.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 109
+      "is_half_beat": false,
+      "beat_index": 218
+    },
+    {
+      "time": 50.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 219
     },
     {
       "time": 50.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 110
+      "is_half_beat": false,
+      "beat_index": 220
+    },
+    {
+      "time": 51.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 221
     },
     {
       "time": 51.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 111
+      "is_half_beat": false,
+      "beat_index": 222
+    },
+    {
+      "time": 51.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 223
     },
     {
       "time": 51.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 112
+      "is_half_beat": false,
+      "beat_index": 224
+    },
+    {
+      "time": 51.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 225
     },
     {
       "time": 52.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 113
+      "is_half_beat": false,
+      "beat_index": 226
+    },
+    {
+      "time": 52.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 227
     },
     {
       "time": 52.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 114
+      "is_half_beat": false,
+      "beat_index": 228
+    },
+    {
+      "time": 52.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 229
     },
     {
       "time": 53.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 115
+      "is_half_beat": false,
+      "beat_index": 230
+    },
+    {
+      "time": 53.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 231
     },
     {
       "time": 53.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 116
+      "is_half_beat": false,
+      "beat_index": 232
+    },
+    {
+      "time": 53.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 233
     },
     {
       "time": 54.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 117
+      "is_half_beat": false,
+      "beat_index": 234
+    },
+    {
+      "time": 54.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 235
     },
     {
       "time": 54.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 118
+      "is_half_beat": false,
+      "beat_index": 236
+    },
+    {
+      "time": 54.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 237
     },
     {
       "time": 54.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 119
+      "is_half_beat": false,
+      "beat_index": 238
+    },
+    {
+      "time": 55.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 239
     },
     {
       "time": 55.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 120
+      "is_half_beat": false,
+      "beat_index": 240
+    },
+    {
+      "time": 55.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 241
     },
     {
       "time": 55.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 121
+      "is_half_beat": false,
+      "beat_index": 242
+    },
+    {
+      "time": 56.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 243
     },
     {
       "time": 56.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 122
+      "is_half_beat": false,
+      "beat_index": 244
+    },
+    {
+      "time": 56.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 245
     },
     {
       "time": 56.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 123
+      "is_half_beat": false,
+      "beat_index": 246
+    },
+    {
+      "time": 57.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 247
     },
     {
       "time": 57.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 124
+      "is_half_beat": false,
+      "beat_index": 248
+    },
+    {
+      "time": 57.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 249
     },
     {
       "time": 57.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 125
+      "is_half_beat": false,
+      "beat_index": 250
+    },
+    {
+      "time": 57.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 251
     },
     {
       "time": 58.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 126
+      "is_half_beat": false,
+      "beat_index": 252
+    },
+    {
+      "time": 58.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 253
     },
     {
       "time": 58.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 127
+      "is_half_beat": false,
+      "beat_index": 254
+    },
+    {
+      "time": 58.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 255
     },
     {
       "time": 59.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 128
+      "is_half_beat": false,
+      "beat_index": 256
+    },
+    {
+      "time": 59.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 257
     },
     {
       "time": 59.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 129
+      "is_half_beat": false,
+      "beat_index": 258
+    },
+    {
+      "time": 59.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 259
     },
     {
       "time": 60.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 130
+      "is_half_beat": false,
+      "beat_index": 260
+    },
+    {
+      "time": 60.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 261
     },
     {
       "time": 60.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 131
+      "is_half_beat": false,
+      "beat_index": 262
+    },
+    {
+      "time": 60.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 263
     },
     {
       "time": 60.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 132
+      "is_half_beat": false,
+      "beat_index": 264
+    },
+    {
+      "time": 61.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 265
     },
     {
       "time": 61.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 133
+      "is_half_beat": false,
+      "beat_index": 266
+    },
+    {
+      "time": 61.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 267
     },
     {
       "time": 61.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 134
+      "is_half_beat": false,
+      "beat_index": 268
+    },
+    {
+      "time": 62.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 269
     },
     {
       "time": 62.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 135
+      "is_half_beat": false,
+      "beat_index": 270
+    },
+    {
+      "time": 62.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 271
     },
     {
       "time": 62.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 136
+      "is_half_beat": false,
+      "beat_index": 272
+    },
+    {
+      "time": 63.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 273
     },
     {
       "time": 63.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 137
+      "is_half_beat": false,
+      "beat_index": 274
+    },
+    {
+      "time": 63.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 275
     },
     {
       "time": 63.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 138
+      "is_half_beat": false,
+      "beat_index": 276
+    },
+    {
+      "time": 63.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 277
     },
     {
       "time": 64.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 139
+      "is_half_beat": false,
+      "beat_index": 278
+    },
+    {
+      "time": 64.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 279
     },
     {
       "time": 64.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 140
+      "is_half_beat": false,
+      "beat_index": 280
+    },
+    {
+      "time": 64.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 281
     },
     {
       "time": 65.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 141
+      "is_half_beat": false,
+      "beat_index": 282
+    },
+    {
+      "time": 65.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 283
     },
     {
       "time": 65.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 142
+      "is_half_beat": false,
+      "beat_index": 284
+    },
+    {
+      "time": 65.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 285
     },
     {
       "time": 66.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 143
+      "is_half_beat": false,
+      "beat_index": 286
+    },
+    {
+      "time": 66.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 287
     },
     {
       "time": 66.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 144
+      "is_half_beat": false,
+      "beat_index": 288
+    },
+    {
+      "time": 66.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 289
     },
     {
       "time": 66.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 145
+      "is_half_beat": false,
+      "beat_index": 290
+    },
+    {
+      "time": 67.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 291
     },
     {
       "time": 67.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 146
+      "is_half_beat": false,
+      "beat_index": 292
+    },
+    {
+      "time": 67.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 293
     },
     {
       "time": 67.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 147
+      "is_half_beat": false,
+      "beat_index": 294
+    },
+    {
+      "time": 68.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 295
     },
     {
       "time": 68.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 148
+      "is_half_beat": false,
+      "beat_index": 296
+    },
+    {
+      "time": 68.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 297
     },
     {
       "time": 68.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 149
+      "is_half_beat": false,
+      "beat_index": 298
+    },
+    {
+      "time": 69.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 299
     },
     {
       "time": 69.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 150
+      "is_half_beat": false,
+      "beat_index": 300
+    },
+    {
+      "time": 69.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 301
     },
     {
       "time": 69.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 151
+      "is_half_beat": false,
+      "beat_index": 302
+    },
+    {
+      "time": 69.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 303
     },
     {
       "time": 70.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 152
+      "is_half_beat": false,
+      "beat_index": 304
+    },
+    {
+      "time": 70.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 305
     },
     {
       "time": 70.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 153
+      "is_half_beat": false,
+      "beat_index": 306
+    },
+    {
+      "time": 70.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 307
     },
     {
       "time": 71.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 154
+      "is_half_beat": false,
+      "beat_index": 308
+    },
+    {
+      "time": 71.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 309
     },
     {
       "time": 71.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 155
+      "is_half_beat": false,
+      "beat_index": 310
+    },
+    {
+      "time": 71.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 311
     },
     {
       "time": 72.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 156
+      "is_half_beat": false,
+      "beat_index": 312
+    },
+    {
+      "time": 72.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 313
     },
     {
       "time": 72.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 157
+      "is_half_beat": false,
+      "beat_index": 314
+    },
+    {
+      "time": 72.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 315
     },
     {
       "time": 72.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 158
+      "is_half_beat": false,
+      "beat_index": 316
+    },
+    {
+      "time": 73.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 317
     },
     {
       "time": 73.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 159
+      "is_half_beat": false,
+      "beat_index": 318
+    },
+    {
+      "time": 73.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 319
     },
     {
       "time": 73.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 160
+      "is_half_beat": false,
+      "beat_index": 320
+    },
+    {
+      "time": 74.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 321
     },
     {
       "time": 74.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 161
+      "is_half_beat": false,
+      "beat_index": 322
+    },
+    {
+      "time": 74.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 323
     },
     {
       "time": 74.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 162
+      "is_half_beat": false,
+      "beat_index": 324
+    },
+    {
+      "time": 75.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 325
     },
     {
       "time": 75.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 163
+      "is_half_beat": false,
+      "beat_index": 326
+    },
+    {
+      "time": 75.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 327
     },
     {
       "time": 75.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 164
+      "is_half_beat": false,
+      "beat_index": 328
+    },
+    {
+      "time": 75.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 329
     },
     {
       "time": 76.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 165
+      "is_half_beat": false,
+      "beat_index": 330
+    },
+    {
+      "time": 76.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 331
     },
     {
       "time": 76.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 166
+      "is_half_beat": false,
+      "beat_index": 332
+    },
+    {
+      "time": 76.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 333
     },
     {
       "time": 77.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 167
+      "is_half_beat": false,
+      "beat_index": 334
+    },
+    {
+      "time": 77.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 335
     },
     {
       "time": 77.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 168
+      "is_half_beat": false,
+      "beat_index": 336
+    },
+    {
+      "time": 77.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 337
     },
     {
       "time": 78.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 169
+      "is_half_beat": false,
+      "beat_index": 338
+    },
+    {
+      "time": 78.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 339
     },
     {
       "time": 78.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 170
+      "is_half_beat": false,
+      "beat_index": 340
+    },
+    {
+      "time": 78.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 341
     },
     {
       "time": 78.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 171
+      "is_half_beat": false,
+      "beat_index": 342
+    },
+    {
+      "time": 79.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 343
     },
     {
       "time": 79.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 172
+      "is_half_beat": false,
+      "beat_index": 344
+    },
+    {
+      "time": 79.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 345
     },
     {
       "time": 79.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 173
+      "is_half_beat": false,
+      "beat_index": 346
+    },
+    {
+      "time": 80.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 347
     },
     {
       "time": 80.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 174
+      "is_half_beat": false,
+      "beat_index": 348
+    },
+    {
+      "time": 80.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 349
     },
     {
       "time": 80.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 175
+      "is_half_beat": false,
+      "beat_index": 350
+    },
+    {
+      "time": 81.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 351
     },
     {
       "time": 81.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 176
+      "is_half_beat": false,
+      "beat_index": 352
+    },
+    {
+      "time": 81.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 353
     },
     {
       "time": 81.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 177
+      "is_half_beat": false,
+      "beat_index": 354
+    },
+    {
+      "time": 81.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 355
     },
     {
       "time": 82.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 178
+      "is_half_beat": false,
+      "beat_index": 356
+    },
+    {
+      "time": 82.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 357
     },
     {
       "time": 82.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 179
+      "is_half_beat": false,
+      "beat_index": 358
+    },
+    {
+      "time": 82.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 359
     },
     {
       "time": 83.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 180
+      "is_half_beat": false,
+      "beat_index": 360
+    },
+    {
+      "time": 83.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 361
     },
     {
       "time": 83.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 181
+      "is_half_beat": false,
+      "beat_index": 362
+    },
+    {
+      "time": 83.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 363
     },
     {
       "time": 84.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 182
+      "is_half_beat": false,
+      "beat_index": 364
+    },
+    {
+      "time": 84.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 365
     },
     {
       "time": 84.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 183
+      "is_half_beat": false,
+      "beat_index": 366
+    },
+    {
+      "time": 84.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 367
     },
     {
       "time": 84.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 184
+      "is_half_beat": false,
+      "beat_index": 368
+    },
+    {
+      "time": 85.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 369
     },
     {
       "time": 85.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 185
+      "is_half_beat": false,
+      "beat_index": 370
+    },
+    {
+      "time": 85.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 371
     },
     {
       "time": 85.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 186
+      "is_half_beat": false,
+      "beat_index": 372
+    },
+    {
+      "time": 86.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 373
     },
     {
       "time": 86.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 187
+      "is_half_beat": false,
+      "beat_index": 374
+    },
+    {
+      "time": 86.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 375
     },
     {
       "time": 86.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 188
+      "is_half_beat": false,
+      "beat_index": 376
+    },
+    {
+      "time": 87.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 377
     },
     {
       "time": 87.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 189
+      "is_half_beat": false,
+      "beat_index": 378
+    },
+    {
+      "time": 87.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 379
     },
     {
       "time": 87.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 190
+      "is_half_beat": false,
+      "beat_index": 380
+    },
+    {
+      "time": 87.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 381
     },
     {
       "time": 88.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 191
+      "is_half_beat": false,
+      "beat_index": 382
+    },
+    {
+      "time": 88.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 383
     },
     {
       "time": 88.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 192
+      "is_half_beat": false,
+      "beat_index": 384
+    },
+    {
+      "time": 88.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 385
     },
     {
       "time": 89.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 193
+      "is_half_beat": false,
+      "beat_index": 386
+    },
+    {
+      "time": 89.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 387
     },
     {
       "time": 89.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 194
+      "is_half_beat": false,
+      "beat_index": 388
+    },
+    {
+      "time": 89.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 389
     },
     {
       "time": 90.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 195
+      "is_half_beat": false,
+      "beat_index": 390
+    },
+    {
+      "time": 90.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 391
     },
     {
       "time": 90.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 196
+      "is_half_beat": false,
+      "beat_index": 392
+    },
+    {
+      "time": 90.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 393
     },
     {
       "time": 90.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 197
+      "is_half_beat": false,
+      "beat_index": 394
+    },
+    {
+      "time": 91.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 395
     },
     {
       "time": 91.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 198
+      "is_half_beat": false,
+      "beat_index": 396
+    },
+    {
+      "time": 91.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 397
     },
     {
       "time": 91.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 199
+      "is_half_beat": false,
+      "beat_index": 398
+    },
+    {
+      "time": 92.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 399
     },
     {
       "time": 92.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 200
+      "is_half_beat": false,
+      "beat_index": 400
+    },
+    {
+      "time": 92.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 401
     },
     {
       "time": 92.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 201
+      "is_half_beat": false,
+      "beat_index": 402
+    },
+    {
+      "time": 93.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 403
     },
     {
       "time": 93.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 202
+      "is_half_beat": false,
+      "beat_index": 404
+    },
+    {
+      "time": 93.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 405
     },
     {
       "time": 93.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 203
+      "is_half_beat": false,
+      "beat_index": 406
+    },
+    {
+      "time": 93.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 407
     },
     {
       "time": 94.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 204
+      "is_half_beat": false,
+      "beat_index": 408
+    },
+    {
+      "time": 94.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 409
     },
     {
       "time": 94.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 205
+      "is_half_beat": false,
+      "beat_index": 410
+    },
+    {
+      "time": 94.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 411
     },
     {
       "time": 95.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 206
+      "is_half_beat": false,
+      "beat_index": 412
+    },
+    {
+      "time": 95.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 413
     },
     {
       "time": 95.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 207
+      "is_half_beat": false,
+      "beat_index": 414
+    },
+    {
+      "time": 95.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 415
     },
     {
       "time": 96.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 208
+      "is_half_beat": false,
+      "beat_index": 416
+    },
+    {
+      "time": 96.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 417
     },
     {
       "time": 96.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 209
+      "is_half_beat": false,
+      "beat_index": 418
+    },
+    {
+      "time": 96.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 419
     },
     {
       "time": 96.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 210
+      "is_half_beat": false,
+      "beat_index": 420
+    },
+    {
+      "time": 97.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 421
     },
     {
       "time": 97.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 211
+      "is_half_beat": false,
+      "beat_index": 422
+    },
+    {
+      "time": 97.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 423
     },
     {
       "time": 97.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 212
+      "is_half_beat": false,
+      "beat_index": 424
+    },
+    {
+      "time": 98.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 425
     },
     {
       "time": 98.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 213
+      "is_half_beat": false,
+      "beat_index": 426
+    },
+    {
+      "time": 98.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 427
     },
     {
       "time": 98.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 214
+      "is_half_beat": false,
+      "beat_index": 428
+    },
+    {
+      "time": 99.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 429
     },
     {
       "time": 99.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 215
+      "is_half_beat": false,
+      "beat_index": 430
+    },
+    {
+      "time": 99.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 431
     },
     {
       "time": 99.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 216
+      "is_half_beat": false,
+      "beat_index": 432
+    },
+    {
+      "time": 99.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 433
     },
     {
       "time": 100.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 217
+      "is_half_beat": false,
+      "beat_index": 434
+    },
+    {
+      "time": 100.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 435
     },
     {
       "time": 100.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 218
+      "is_half_beat": false,
+      "beat_index": 436
+    },
+    {
+      "time": 100.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 437
     },
     {
       "time": 101.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 219
+      "is_half_beat": false,
+      "beat_index": 438
+    },
+    {
+      "time": 101.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 439
     },
     {
       "time": 101.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 220
+      "is_half_beat": false,
+      "beat_index": 440
+    },
+    {
+      "time": 101.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 441
     },
     {
       "time": 102.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 221
+      "is_half_beat": false,
+      "beat_index": 442
+    },
+    {
+      "time": 102.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 443
     },
     {
       "time": 102.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 222
+      "is_half_beat": false,
+      "beat_index": 444
+    },
+    {
+      "time": 102.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 445
     },
     {
       "time": 102.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 223
+      "is_half_beat": false,
+      "beat_index": 446
+    },
+    {
+      "time": 103.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 447
     },
     {
       "time": 103.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 224
+      "is_half_beat": false,
+      "beat_index": 448
+    },
+    {
+      "time": 103.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 449
     },
     {
       "time": 103.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 225
+      "is_half_beat": false,
+      "beat_index": 450
+    },
+    {
+      "time": 104.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 451
     },
     {
       "time": 104.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 226
+      "is_half_beat": false,
+      "beat_index": 452
+    },
+    {
+      "time": 104.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 453
     },
     {
       "time": 104.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 227
+      "is_half_beat": false,
+      "beat_index": 454
+    },
+    {
+      "time": 105.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 455
     },
     {
       "time": 105.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 228
+      "is_half_beat": false,
+      "beat_index": 456
+    },
+    {
+      "time": 105.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 457
     },
     {
       "time": 105.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 229
+      "is_half_beat": false,
+      "beat_index": 458
+    },
+    {
+      "time": 105.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 459
     },
     {
       "time": 106.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 230
+      "is_half_beat": false,
+      "beat_index": 460
+    },
+    {
+      "time": 106.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 461
     },
     {
       "time": 106.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 231
+      "is_half_beat": false,
+      "beat_index": 462
+    },
+    {
+      "time": 106.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 463
     },
     {
       "time": 107.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 232
+      "is_half_beat": false,
+      "beat_index": 464
+    },
+    {
+      "time": 107.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 465
     },
     {
       "time": 107.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 233
+      "is_half_beat": false,
+      "beat_index": 466
+    },
+    {
+      "time": 107.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 467
     },
     {
       "time": 108.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 234
+      "is_half_beat": false,
+      "beat_index": 468
+    },
+    {
+      "time": 108.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 469
     },
     {
       "time": 108.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 235
+      "is_half_beat": false,
+      "beat_index": 470
+    },
+    {
+      "time": 108.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 471
     },
     {
       "time": 108.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 236
+      "is_half_beat": false,
+      "beat_index": 472
+    },
+    {
+      "time": 109.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 473
     },
     {
       "time": 109.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 237
+      "is_half_beat": false,
+      "beat_index": 474
+    },
+    {
+      "time": 109.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 475
     },
     {
       "time": 109.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 238
+      "is_half_beat": false,
+      "beat_index": 476
+    },
+    {
+      "time": 110.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 477
     },
     {
       "time": 110.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 239
+      "is_half_beat": false,
+      "beat_index": 478
+    },
+    {
+      "time": 110.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 479
     },
     {
       "time": 110.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 240
+      "is_half_beat": false,
+      "beat_index": 480
+    },
+    {
+      "time": 111.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 481
     },
     {
       "time": 111.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 241
+      "is_half_beat": false,
+      "beat_index": 482
+    },
+    {
+      "time": 111.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 483
     },
     {
       "time": 111.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 242
+      "is_half_beat": false,
+      "beat_index": 484
+    },
+    {
+      "time": 111.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 485
     },
     {
       "time": 112.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 243
+      "is_half_beat": false,
+      "beat_index": 486
+    },
+    {
+      "time": 112.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 487
     },
     {
       "time": 112.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 244
+      "is_half_beat": false,
+      "beat_index": 488
+    },
+    {
+      "time": 112.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 489
     },
     {
       "time": 113.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 245
+      "is_half_beat": false,
+      "beat_index": 490
+    },
+    {
+      "time": 113.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 491
     },
     {
       "time": 113.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 246
+      "is_half_beat": false,
+      "beat_index": 492
+    },
+    {
+      "time": 113.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 493
     },
     {
       "time": 114.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 247
+      "is_half_beat": false,
+      "beat_index": 494
+    },
+    {
+      "time": 114.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 495
     },
     {
       "time": 114.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 248
+      "is_half_beat": false,
+      "beat_index": 496
+    },
+    {
+      "time": 114.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 497
     },
     {
       "time": 114.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 249
+      "is_half_beat": false,
+      "beat_index": 498
+    },
+    {
+      "time": 115.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 499
     },
     {
       "time": 115.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 250
+      "is_half_beat": false,
+      "beat_index": 500
+    },
+    {
+      "time": 115.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 501
     },
     {
       "time": 115.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 251
+      "is_half_beat": false,
+      "beat_index": 502
+    },
+    {
+      "time": 116.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 503
     },
     {
       "time": 116.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 252
+      "is_half_beat": false,
+      "beat_index": 504
+    },
+    {
+      "time": 116.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 505
     },
     {
       "time": 116.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 253
+      "is_half_beat": false,
+      "beat_index": 506
+    },
+    {
+      "time": 117.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 507
     },
     {
       "time": 117.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 254
+      "is_half_beat": false,
+      "beat_index": 508
+    },
+    {
+      "time": 117.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 509
     },
     {
       "time": 117.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 255
+      "is_half_beat": false,
+      "beat_index": 510
+    },
+    {
+      "time": 117.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 511
     },
     {
       "time": 118.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 256
+      "is_half_beat": false,
+      "beat_index": 512
+    },
+    {
+      "time": 118.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 513
     },
     {
       "time": 118.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 257
+      "is_half_beat": false,
+      "beat_index": 514
+    },
+    {
+      "time": 118.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 515
     },
     {
       "time": 119.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 258
+      "is_half_beat": false,
+      "beat_index": 516
+    },
+    {
+      "time": 119.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 517
     },
     {
       "time": 119.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 259
+      "is_half_beat": false,
+      "beat_index": 518
+    },
+    {
+      "time": 119.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 519
     },
     {
       "time": 120.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 260
+      "is_half_beat": false,
+      "beat_index": 520
+    },
+    {
+      "time": 120.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 521
     },
     {
       "time": 120.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 261
+      "is_half_beat": false,
+      "beat_index": 522
+    },
+    {
+      "time": 120.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 523
     },
     {
       "time": 120.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 262
+      "is_half_beat": false,
+      "beat_index": 524
+    },
+    {
+      "time": 121.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 525
     },
     {
       "time": 121.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 263
+      "is_half_beat": false,
+      "beat_index": 526
+    },
+    {
+      "time": 121.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 527
     },
     {
       "time": 121.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 264
+      "is_half_beat": false,
+      "beat_index": 528
+    },
+    {
+      "time": 122.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 529
     },
     {
       "time": 122.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 265
+      "is_half_beat": false,
+      "beat_index": 530
+    },
+    {
+      "time": 122.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 531
     },
     {
       "time": 122.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 266
+      "is_half_beat": false,
+      "beat_index": 532
+    },
+    {
+      "time": 123.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 533
     },
     {
       "time": 123.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 267
+      "is_half_beat": false,
+      "beat_index": 534
+    },
+    {
+      "time": 123.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 535
     },
     {
       "time": 123.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 268
+      "is_half_beat": false,
+      "beat_index": 536
+    },
+    {
+      "time": 123.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 537
     },
     {
       "time": 124.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 269
+      "is_half_beat": false,
+      "beat_index": 538
+    },
+    {
+      "time": 124.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 539
     },
     {
       "time": 124.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 270
+      "is_half_beat": false,
+      "beat_index": 540
+    },
+    {
+      "time": 124.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 541
     },
     {
       "time": 125.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 271
+      "is_half_beat": false,
+      "beat_index": 542
+    },
+    {
+      "time": 125.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 543
     },
     {
       "time": 125.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 272
+      "is_half_beat": false,
+      "beat_index": 544
+    },
+    {
+      "time": 125.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 545
     },
     {
       "time": 126.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 273
+      "is_half_beat": false,
+      "beat_index": 546
+    },
+    {
+      "time": 126.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 547
     },
     {
       "time": 126.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 274
+      "is_half_beat": false,
+      "beat_index": 548
+    },
+    {
+      "time": 126.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 549
     },
     {
       "time": 126.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 275
+      "is_half_beat": false,
+      "beat_index": 550
+    },
+    {
+      "time": 127.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 551
     },
     {
       "time": 127.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 276
+      "is_half_beat": false,
+      "beat_index": 552
+    },
+    {
+      "time": 127.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 553
     },
     {
       "time": 127.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 277
+      "is_half_beat": false,
+      "beat_index": 554
+    },
+    {
+      "time": 128.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 555
     },
     {
       "time": 128.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 278
+      "is_half_beat": false,
+      "beat_index": 556
+    },
+    {
+      "time": 128.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 557
     },
     {
       "time": 128.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 279
+      "is_half_beat": false,
+      "beat_index": 558
+    },
+    {
+      "time": 129.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 559
     },
     {
       "time": 129.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 280
+      "is_half_beat": false,
+      "beat_index": 560
+    },
+    {
+      "time": 129.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 561
     },
     {
       "time": 129.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 281
+      "is_half_beat": false,
+      "beat_index": 562
+    },
+    {
+      "time": 129.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 563
     },
     {
       "time": 130.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 282
+      "is_half_beat": false,
+      "beat_index": 564
+    },
+    {
+      "time": 130.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 565
     },
     {
       "time": 130.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 283
+      "is_half_beat": false,
+      "beat_index": 566
+    },
+    {
+      "time": 130.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 567
     },
     {
       "time": 131.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 284
+      "is_half_beat": false,
+      "beat_index": 568
+    },
+    {
+      "time": 131.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 569
     },
     {
       "time": 131.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 285
+      "is_half_beat": false,
+      "beat_index": 570
+    },
+    {
+      "time": 131.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 571
     },
     {
       "time": 132.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 286
+      "is_half_beat": false,
+      "beat_index": 572
+    },
+    {
+      "time": 132.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 573
     },
     {
       "time": 132.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 287
+      "is_half_beat": false,
+      "beat_index": 574
+    },
+    {
+      "time": 132.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 575
     },
     {
       "time": 132.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 288
+      "is_half_beat": false,
+      "beat_index": 576
+    },
+    {
+      "time": 133.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 577
     },
     {
       "time": 133.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 289
+      "is_half_beat": false,
+      "beat_index": 578
+    },
+    {
+      "time": 133.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 579
     },
     {
       "time": 133.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 290
+      "is_half_beat": false,
+      "beat_index": 580
+    },
+    {
+      "time": 134.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 581
     },
     {
       "time": 134.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 291
+      "is_half_beat": false,
+      "beat_index": 582
+    },
+    {
+      "time": 134.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 583
     },
     {
       "time": 134.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 292
+      "is_half_beat": false,
+      "beat_index": 584
+    },
+    {
+      "time": 135.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 585
     },
     {
       "time": 135.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 293
+      "is_half_beat": false,
+      "beat_index": 586
+    },
+    {
+      "time": 135.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 587
     },
     {
       "time": 135.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 294
+      "is_half_beat": false,
+      "beat_index": 588
+    },
+    {
+      "time": 135.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 589
     },
     {
       "time": 136.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 295
+      "is_half_beat": false,
+      "beat_index": 590
+    },
+    {
+      "time": 136.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 591
     },
     {
       "time": 136.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 296
+      "is_half_beat": false,
+      "beat_index": 592
+    },
+    {
+      "time": 136.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 593
     },
     {
       "time": 137.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 297
+      "is_half_beat": false,
+      "beat_index": 594
+    },
+    {
+      "time": 137.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 595
     },
     {
       "time": 137.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 298
+      "is_half_beat": false,
+      "beat_index": 596
+    },
+    {
+      "time": 137.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 597
     },
     {
       "time": 138.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 299
+      "is_half_beat": false,
+      "beat_index": 598
+    },
+    {
+      "time": 138.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 599
     },
     {
       "time": 138.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 300
+      "is_half_beat": false,
+      "beat_index": 600
+    },
+    {
+      "time": 138.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 601
     },
     {
       "time": 138.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 301
+      "is_half_beat": false,
+      "beat_index": 602
+    },
+    {
+      "time": 139.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 603
     },
     {
       "time": 139.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 302
+      "is_half_beat": false,
+      "beat_index": 604
+    },
+    {
+      "time": 139.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 605
     },
     {
       "time": 139.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 303
+      "is_half_beat": false,
+      "beat_index": 606
+    },
+    {
+      "time": 140.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 607
     },
     {
       "time": 140.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 304
+      "is_half_beat": false,
+      "beat_index": 608
+    },
+    {
+      "time": 140.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 609
     },
     {
       "time": 140.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 305
+      "is_half_beat": false,
+      "beat_index": 610
+    },
+    {
+      "time": 141.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 611
     },
     {
       "time": 141.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 306
+      "is_half_beat": false,
+      "beat_index": 612
+    },
+    {
+      "time": 141.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 613
     },
     {
       "time": 141.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 307
+      "is_half_beat": false,
+      "beat_index": 614
+    },
+    {
+      "time": 141.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 615
     },
     {
       "time": 142.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 308
+      "is_half_beat": false,
+      "beat_index": 616
+    },
+    {
+      "time": 142.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 617
     },
     {
       "time": 142.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 309
+      "is_half_beat": false,
+      "beat_index": 618
+    },
+    {
+      "time": 142.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 619
     },
     {
       "time": 143.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 310
+      "is_half_beat": false,
+      "beat_index": 620
+    },
+    {
+      "time": 143.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 621
     },
     {
       "time": 143.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 311
+      "is_half_beat": false,
+      "beat_index": 622
+    },
+    {
+      "time": 143.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 623
     },
     {
       "time": 144.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 312
+      "is_half_beat": false,
+      "beat_index": 624
+    },
+    {
+      "time": 144.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 625
     },
     {
       "time": 144.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 313
+      "is_half_beat": false,
+      "beat_index": 626
+    },
+    {
+      "time": 144.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 627
     },
     {
       "time": 144.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 314
+      "is_half_beat": false,
+      "beat_index": 628
+    },
+    {
+      "time": 145.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 629
     },
     {
       "time": 145.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 315
+      "is_half_beat": false,
+      "beat_index": 630
+    },
+    {
+      "time": 145.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 631
     },
     {
       "time": 145.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 316
+      "is_half_beat": false,
+      "beat_index": 632
+    },
+    {
+      "time": 146.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 633
     },
     {
       "time": 146.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 317
+      "is_half_beat": false,
+      "beat_index": 634
+    },
+    {
+      "time": 146.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 635
     },
     {
       "time": 146.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 318
+      "is_half_beat": false,
+      "beat_index": 636
+    },
+    {
+      "time": 147.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 637
     },
     {
       "time": 147.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 319
+      "is_half_beat": false,
+      "beat_index": 638
+    },
+    {
+      "time": 147.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 639
     },
     {
       "time": 147.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 320
+      "is_half_beat": false,
+      "beat_index": 640
+    },
+    {
+      "time": 147.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 641
     },
     {
       "time": 148.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 321
+      "is_half_beat": false,
+      "beat_index": 642
+    },
+    {
+      "time": 148.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 643
     },
     {
       "time": 148.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 322
+      "is_half_beat": false,
+      "beat_index": 644
+    },
+    {
+      "time": 148.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 645
     },
     {
       "time": 149.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 323
+      "is_half_beat": false,
+      "beat_index": 646
+    },
+    {
+      "time": 149.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 647
     },
     {
       "time": 149.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 324
+      "is_half_beat": false,
+      "beat_index": 648
+    },
+    {
+      "time": 149.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 649
     },
     {
       "time": 150.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 325
+      "is_half_beat": false,
+      "beat_index": 650
+    },
+    {
+      "time": 150.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 651
     },
     {
       "time": 150.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 326
+      "is_half_beat": false,
+      "beat_index": 652
+    },
+    {
+      "time": 150.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 653
     },
     {
       "time": 150.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 327
+      "is_half_beat": false,
+      "beat_index": 654
+    },
+    {
+      "time": 151.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 655
     },
     {
       "time": 151.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 328
+      "is_half_beat": false,
+      "beat_index": 656
+    },
+    {
+      "time": 151.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 657
     },
     {
       "time": 151.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 329
+      "is_half_beat": false,
+      "beat_index": 658
+    },
+    {
+      "time": 152.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 659
     },
     {
       "time": 152.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 330
+      "is_half_beat": false,
+      "beat_index": 660
+    },
+    {
+      "time": 152.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 661
     },
     {
       "time": 152.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 331
+      "is_half_beat": false,
+      "beat_index": 662
+    },
+    {
+      "time": 153.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 663
     },
     {
       "time": 153.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 332
+      "is_half_beat": false,
+      "beat_index": 664
+    },
+    {
+      "time": 153.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 665
     },
     {
       "time": 153.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 333
+      "is_half_beat": false,
+      "beat_index": 666
+    },
+    {
+      "time": 153.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 667
     },
     {
       "time": 154.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 334
+      "is_half_beat": false,
+      "beat_index": 668
+    },
+    {
+      "time": 154.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 669
     },
     {
       "time": 154.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 335
+      "is_half_beat": false,
+      "beat_index": 670
+    },
+    {
+      "time": 154.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 671
     },
     {
       "time": 155.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 336
+      "is_half_beat": false,
+      "beat_index": 672
+    },
+    {
+      "time": 155.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 673
     },
     {
       "time": 155.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 337
+      "is_half_beat": false,
+      "beat_index": 674
+    },
+    {
+      "time": 155.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 675
     },
     {
       "time": 156.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 338
+      "is_half_beat": false,
+      "beat_index": 676
+    },
+    {
+      "time": 156.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 677
     },
     {
       "time": 156.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 339
+      "is_half_beat": false,
+      "beat_index": 678
+    },
+    {
+      "time": 156.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 679
     },
     {
       "time": 156.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 340
+      "is_half_beat": false,
+      "beat_index": 680
+    },
+    {
+      "time": 157.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 681
     },
     {
       "time": 157.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 341
+      "is_half_beat": false,
+      "beat_index": 682
+    },
+    {
+      "time": 157.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 683
     },
     {
       "time": 157.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 342
+      "is_half_beat": false,
+      "beat_index": 684
+    },
+    {
+      "time": 158.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 685
     },
     {
       "time": 158.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 343
+      "is_half_beat": false,
+      "beat_index": 686
+    },
+    {
+      "time": 158.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 687
     },
     {
       "time": 158.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 344
+      "is_half_beat": false,
+      "beat_index": 688
+    },
+    {
+      "time": 159.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 689
     },
     {
       "time": 159.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 345
+      "is_half_beat": false,
+      "beat_index": 690
+    },
+    {
+      "time": 159.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 691
     },
     {
       "time": 159.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 346
+      "is_half_beat": false,
+      "beat_index": 692
+    },
+    {
+      "time": 159.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 693
     },
     {
       "time": 160.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 347
+      "is_half_beat": false,
+      "beat_index": 694
+    },
+    {
+      "time": 160.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 695
     },
     {
       "time": 160.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 348
+      "is_half_beat": false,
+      "beat_index": 696
+    },
+    {
+      "time": 160.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 697
     },
     {
       "time": 161.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 349
+      "is_half_beat": false,
+      "beat_index": 698
+    },
+    {
+      "time": 161.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 699
     },
     {
       "time": 161.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 350
+      "is_half_beat": false,
+      "beat_index": 700
+    },
+    {
+      "time": 161.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 701
     },
     {
       "time": 162.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 351
+      "is_half_beat": false,
+      "beat_index": 702
+    },
+    {
+      "time": 162.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 703
     },
     {
       "time": 162.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 352
+      "is_half_beat": false,
+      "beat_index": 704
+    },
+    {
+      "time": 162.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 705
     },
     {
       "time": 162.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 353
+      "is_half_beat": false,
+      "beat_index": 706
+    },
+    {
+      "time": 163.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 707
     },
     {
       "time": 163.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 354
+      "is_half_beat": false,
+      "beat_index": 708
+    },
+    {
+      "time": 163.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 709
     },
     {
       "time": 163.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 355
+      "is_half_beat": false,
+      "beat_index": 710
+    },
+    {
+      "time": 164.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 711
     },
     {
       "time": 164.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 356
+      "is_half_beat": false,
+      "beat_index": 712
+    },
+    {
+      "time": 164.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 713
     },
     {
       "time": 164.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 357
+      "is_half_beat": false,
+      "beat_index": 714
+    },
+    {
+      "time": 165.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 715
     },
     {
       "time": 165.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 358
+      "is_half_beat": false,
+      "beat_index": 716
+    },
+    {
+      "time": 165.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 717
     },
     {
       "time": 165.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 359
+      "is_half_beat": false,
+      "beat_index": 718
+    },
+    {
+      "time": 165.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 719
     },
     {
       "time": 166.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 360
+      "is_half_beat": false,
+      "beat_index": 720
+    },
+    {
+      "time": 166.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 721
     },
     {
       "time": 166.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 361
+      "is_half_beat": false,
+      "beat_index": 722
+    },
+    {
+      "time": 166.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 723
     },
     {
       "time": 167.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 362
+      "is_half_beat": false,
+      "beat_index": 724
+    },
+    {
+      "time": 167.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 725
     },
     {
       "time": 167.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 363
+      "is_half_beat": false,
+      "beat_index": 726
+    },
+    {
+      "time": 167.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 727
     },
     {
       "time": 168.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 364
+      "is_half_beat": false,
+      "beat_index": 728
+    },
+    {
+      "time": 168.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 729
     },
     {
       "time": 168.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 365
+      "is_half_beat": false,
+      "beat_index": 730
+    },
+    {
+      "time": 168.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 731
     },
     {
       "time": 168.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 366
+      "is_half_beat": false,
+      "beat_index": 732
+    },
+    {
+      "time": 169.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 733
     },
     {
       "time": 169.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 367
+      "is_half_beat": false,
+      "beat_index": 734
+    },
+    {
+      "time": 169.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 735
     },
     {
       "time": 169.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 368
+      "is_half_beat": false,
+      "beat_index": 736
+    },
+    {
+      "time": 170.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 737
     },
     {
       "time": 170.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 369
+      "is_half_beat": false,
+      "beat_index": 738
+    },
+    {
+      "time": 170.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 739
     },
     {
       "time": 170.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 370
+      "is_half_beat": false,
+      "beat_index": 740
+    },
+    {
+      "time": 171.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 741
     },
     {
       "time": 171.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 371
+      "is_half_beat": false,
+      "beat_index": 742
+    },
+    {
+      "time": 171.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 743
     },
     {
       "time": 171.692,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 372
+      "is_half_beat": false,
+      "beat_index": 744
+    },
+    {
+      "time": 171.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 745
     },
     {
       "time": 172.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 373
+      "is_half_beat": false,
+      "beat_index": 746
+    },
+    {
+      "time": 172.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 747
     },
     {
       "time": 172.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 374
+      "is_half_beat": false,
+      "beat_index": 748
+    },
+    {
+      "time": 172.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 749
     },
     {
       "time": 173.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 375
+      "is_half_beat": false,
+      "beat_index": 750
+    },
+    {
+      "time": 173.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 751
     },
     {
       "time": 173.538,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 376
+      "is_half_beat": false,
+      "beat_index": 752
+    },
+    {
+      "time": 173.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 753
     },
     {
       "time": 174.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 377
+      "is_half_beat": false,
+      "beat_index": 754
+    },
+    {
+      "time": 174.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 755
     },
     {
       "time": 174.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 378
+      "is_half_beat": false,
+      "beat_index": 756
+    },
+    {
+      "time": 174.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 757
     },
     {
       "time": 174.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 379
+      "is_half_beat": false,
+      "beat_index": 758
+    },
+    {
+      "time": 175.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 759
     },
     {
       "time": 175.385,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 380
+      "is_half_beat": false,
+      "beat_index": 760
+    },
+    {
+      "time": 175.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 761
     },
     {
       "time": 175.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 381
+      "is_half_beat": false,
+      "beat_index": 762
+    },
+    {
+      "time": 176.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 763
     },
     {
       "time": 176.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 382
+      "is_half_beat": false,
+      "beat_index": 764
+    },
+    {
+      "time": 176.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 765
     },
     {
       "time": 176.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 383
+      "is_half_beat": false,
+      "beat_index": 766
+    },
+    {
+      "time": 177.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 767
     },
     {
       "time": 177.231,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 384
+      "is_half_beat": false,
+      "beat_index": 768
+    },
+    {
+      "time": 177.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 769
     },
     {
       "time": 177.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 385
+      "is_half_beat": false,
+      "beat_index": 770
+    },
+    {
+      "time": 177.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 771
     },
     {
       "time": 178.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 386
+      "is_half_beat": false,
+      "beat_index": 772
+    },
+    {
+      "time": 178.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 773
     },
     {
       "time": 178.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 387
+      "is_half_beat": false,
+      "beat_index": 774
+    },
+    {
+      "time": 178.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 775
     },
     {
       "time": 179.077,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 388
+      "is_half_beat": false,
+      "beat_index": 776
+    },
+    {
+      "time": 179.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 777
     },
     {
       "time": 179.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 389
+      "is_half_beat": false,
+      "beat_index": 778
+    },
+    {
+      "time": 179.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 779
     },
     {
       "time": 180.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 390
+      "is_half_beat": false,
+      "beat_index": 780
+    },
+    {
+      "time": 180.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 781
     },
     {
       "time": 180.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 391
+      "is_half_beat": false,
+      "beat_index": 782
+    },
+    {
+      "time": 180.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 783
     },
     {
       "time": 180.923,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 392
+      "is_half_beat": false,
+      "beat_index": 784
+    },
+    {
+      "time": 181.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 785
     },
     {
       "time": 181.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 393
+      "is_half_beat": false,
+      "beat_index": 786
+    },
+    {
+      "time": 181.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 787
     },
     {
       "time": 181.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 394
+      "is_half_beat": false,
+      "beat_index": 788
+    },
+    {
+      "time": 182.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 789
     },
     {
       "time": 182.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 395
+      "is_half_beat": false,
+      "beat_index": 790
+    },
+    {
+      "time": 182.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 791
     },
     {
       "time": 182.769,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 396
+      "is_half_beat": false,
+      "beat_index": 792
+    },
+    {
+      "time": 183.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 793
     },
     {
       "time": 183.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 397
+      "is_half_beat": false,
+      "beat_index": 794
+    },
+    {
+      "time": 183.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 795
     },
     {
       "time": 183.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 398
+      "is_half_beat": false,
+      "beat_index": 796
+    },
+    {
+      "time": 183.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 797
     },
     {
       "time": 184.154,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 399
+      "is_half_beat": false,
+      "beat_index": 798
+    },
+    {
+      "time": 184.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 799
     },
     {
       "time": 184.615,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 400
+      "is_half_beat": false,
+      "beat_index": 800
+    },
+    {
+      "time": 184.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 801
     },
     {
       "time": 185.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 401
+      "is_half_beat": false,
+      "beat_index": 802
+    },
+    {
+      "time": 185.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 803
     },
     {
       "time": 185.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 402
+      "is_half_beat": false,
+      "beat_index": 804
+    },
+    {
+      "time": 185.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 805
     },
     {
       "time": 186.0,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 403
+      "is_half_beat": false,
+      "beat_index": 806
+    },
+    {
+      "time": 186.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 807
     },
     {
       "time": 186.462,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 404
+      "is_half_beat": false,
+      "beat_index": 808
+    },
+    {
+      "time": 186.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 809
     },
     {
       "time": 186.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 405
+      "is_half_beat": false,
+      "beat_index": 810
+    },
+    {
+      "time": 187.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 811
     },
     {
       "time": 187.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 406
+      "is_half_beat": false,
+      "beat_index": 812
+    },
+    {
+      "time": 187.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 813
     },
     {
       "time": 187.846,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 407
+      "is_half_beat": false,
+      "beat_index": 814
+    },
+    {
+      "time": 188.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 815
     },
     {
       "time": 188.308,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 408
+      "is_half_beat": false,
+      "beat_index": 816
+    },
+    {
+      "time": 188.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 817
     },
     {
       "time": 188.769,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 409
+      "is_half_beat": false,
+      "beat_index": 818
+    },
+    {
+      "time": 189.0,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 819
     },
     {
       "time": 189.231,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 410
+      "is_half_beat": false,
+      "beat_index": 820
+    },
+    {
+      "time": 189.462,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 821
     },
     {
       "time": 189.692,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 411
+      "is_half_beat": false,
+      "beat_index": 822
+    },
+    {
+      "time": 189.923,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 823
     },
     {
       "time": 190.154,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 412
+      "is_half_beat": false,
+      "beat_index": 824
+    },
+    {
+      "time": 190.385,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 825
     },
     {
       "time": 190.615,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 413
+      "is_half_beat": false,
+      "beat_index": 826
+    },
+    {
+      "time": 190.846,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 827
     },
     {
       "time": 191.077,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 414
+      "is_half_beat": false,
+      "beat_index": 828
+    },
+    {
+      "time": 191.308,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 829
     },
     {
       "time": 191.538,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 415
+      "is_half_beat": false,
+      "beat_index": 830
+    },
+    {
+      "time": 191.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 831
     },
     {
       "time": 192.0,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 416
+      "is_half_beat": false,
+      "beat_index": 832
+    },
+    {
+      "time": 192.231,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 833
     },
     {
       "time": 192.462,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 417
+      "is_half_beat": false,
+      "beat_index": 834
+    },
+    {
+      "time": 192.692,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 835
     },
     {
       "time": 192.923,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 418
+      "is_half_beat": false,
+      "beat_index": 836
+    },
+    {
+      "time": 193.154,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 837
     },
     {
       "time": 193.385,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 419
+      "is_half_beat": false,
+      "beat_index": 838
+    },
+    {
+      "time": 193.615,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 839
     },
     {
       "time": 193.846,
       "type": "spawn_character",
       "is_downbeat": true,
-      "beat_index": 420
+      "is_half_beat": false,
+      "beat_index": 840
+    },
+    {
+      "time": 194.077,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 841
     },
     {
       "time": 194.308,
       "type": "spawn_character",
       "is_downbeat": false,
-      "beat_index": 421
+      "is_half_beat": false,
+      "beat_index": 842
+    },
+    {
+      "time": 194.538,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": true,
+      "beat_index": 843
+    },
+    {
+      "time": 194.769,
+      "type": "spawn_character",
+      "is_downbeat": false,
+      "is_half_beat": false,
+      "beat_index": 844
     }
   ]
 }
