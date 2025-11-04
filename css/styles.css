@@ -453,6 +453,49 @@ header .subtitle {
 }
 
 /* ==============================================
+   🆕 스테이지 타이머
+============================================== */
+#stage-timer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #FFD700;
+    border-radius: 15px;
+    padding: 15px 30px;
+    z-index: 50;
+    pointer-events: none;
+}
+
+#stage-timer-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow:
+        0 0 10px rgba(255, 215, 0, 0.8),
+        0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+#stage-timer.warning {
+    border-color: #FF4444;
+}
+
+#stage-timer.warning #stage-timer-value {
+    color: #FF4444;
+    animation: timerPulse 0.5s ease-in-out infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* ==============================================
    반응형 디자인
 ============================================== */
 @media (max-width: 768px) {

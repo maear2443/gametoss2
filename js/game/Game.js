@@ -512,11 +512,16 @@ export class Game {
         // 🆕 스테이지 시작 메시지 표시
         this.showStageMessage(`STAGE ${this.currentStage}`, 'stage-start', 1500);
 
-        // 🆕 모든 인형을 한번에 활성화!
-        this.characters.forEach((char, index) => {
-            char.activate(currentTime);
-            console.log(`✅ 인형 ${index + 1} 활성화 (${char.color} ${char.characterType})`);
-        });
+        // 🆕 스테이지 타이머 표시
+        this.ui.$stageTimer.classList.remove('hidden');
+        this.ui.$stageTimer.classList.remove('warning');
+
+        // 🆕 인형들은 비활성 상태 유지 (밝은 상태)
+        // 제일 밑 인형만 활성화
+        if (this.characters.length > 0) {
+            this.characters[0].activate(currentTime);
+            console.log(`✅ 제일 밑 인형 활성화 (${this.characters[0].color} ${this.characters[0].characterType})`);
+        }
 
         console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 5초 안에 모든 인형 처리!`);
     }
@@ -527,7 +532,22 @@ export class Game {
     updatePlayPhase(currentTime) {
         // 🆕 5초 제한 체크
         const elapsedTime = currentTime - this.phaseStartTime;
+        const timeRemaining = this.playPhaseTimeLimit - elapsedTime;
+
+        // 🆕 타이머 업데이트
+        if (this.ui.$stageTimerValue) {
+            this.ui.$stageTimerValue.textContent = Math.max(0, timeRemaining).toFixed(1);
+
+            // 2초 이하일 때 경고 표시
+            if (timeRemaining <= 2.0 && timeRemaining > 0) {
+                this.ui.$stageTimer.classList.add('warning');
+            }
+        }
+
         if (elapsedTime >= this.playPhaseTimeLimit) {
+            // 타이머 숨기기
+            this.ui.$stageTimer.classList.add('hidden');
+
             // 시간 초과! 남은 인형들 아래로 떨어뜨리기
             if (this.characters.length > 0) {
                 console.log(`⏰ 플레이 페이즈 시간 초과! 남은 인형 ${this.characters.length}개 떨어뜨림`);
@@ -555,6 +575,8 @@ export class Game {
 
         // 모두 처리했으면 클리어 페이즈로
         if (this.characters.length === 0) {
+            // 타이머 숨기기
+            this.ui.$stageTimer.classList.add('hidden');
             this.startClearPhase(currentTime);
         }
     }

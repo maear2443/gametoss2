@@ -28,6 +28,8 @@ const ui = {
     $approveBtn: document.getElementById('approve-btn'),
     $judgment: document.getElementById('judgment-display'),
     $stageMessage: document.getElementById('stage-message'), // 🆕 스테이지 메시지
+    $stageTimer: document.getElementById('stage-timer'), // 🆕 스테이지 타이머
+    $stageTimerValue: document.getElementById('stage-timer-value'), // 🆕 스테이지 타이머 값
     $gameOver: document.getElementById('game-over'),
     $finalScore: document.getElementById('final-score'),
     $finalMaxCombo: document.getElementById('final-max-combo'),
