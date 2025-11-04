@@ -29,6 +29,11 @@ def analyze_song(mp3_path, output_dir="assets/music/beatmaps"):
     # BPM 추출
     tempo, beats = librosa.beat.beat_track(y=y, sr=sr)
 
+    # tempo가 배열이면 첫 번째 값 추출
+    if isinstance(tempo, np.ndarray):
+        tempo = tempo.item() if tempo.size == 1 else tempo[0]
+    tempo = float(tempo)
+
     # 비트 타임스탬프 계산
     beat_times = librosa.frames_to_time(beats, sr=sr)
 
@@ -52,7 +57,7 @@ def analyze_song(mp3_path, output_dir="assets/music/beatmaps"):
         "metadata": {
             "filename": os.path.basename(mp3_path),
             "duration": float(duration),
-            "bpm": float(tempo),
+            "bpm": tempo,  # 이미 float으로 변환됨
             "analyzed_with": "librosa"
         },
         "beats": {
