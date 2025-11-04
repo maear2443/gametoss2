@@ -63,7 +63,7 @@ export class Game {
         this.maxDropsPerStage = 7;
         this.clearedInCurrentStage = 0;
         this.phaseStartTime = 0;
-        this.playPhaseTimeLimit = 5.0; // 5초 제한
+        this.playPhaseTimeLimit = 10.0; // 10초 제한 (7개 인형 여유있게 처리)
 
         // 타이밍
         this.rafId = null;
@@ -87,6 +87,9 @@ export class Game {
         this.running = true;
         this.startTime = performance.now() / 1000;
         this.lastTime = this.startTime;
+
+        // 🆕 DROP_PHASE 시작 시간 설정 (중복 생성 방지)
+        this.phaseStartTime = this.startTime;
 
         // 음악 재생
         playMusic();
@@ -529,14 +532,14 @@ export class Game {
             console.log(`✅ 제일 밑 인형 활성화 (${this.characters[0].color} ${this.characters[0].characterType})`);
         }
 
-        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 5초 안에 모든 인형 처리!`);
+        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 10초 안에 모든 인형 처리!`);
     }
 
     /**
      * 플레이 페이즈: 제일 밑부터 처리
      */
     updatePlayPhase(currentTime) {
-        // 🆕 5초 제한 체크
+        // 🆕 10초 제한 체크
         const elapsedTime = currentTime - this.phaseStartTime;
         const timeRemaining = this.playPhaseTimeLimit - elapsedTime;
 
@@ -544,8 +547,8 @@ export class Game {
         if (this.ui.$stageTimerValue) {
             this.ui.$stageTimerValue.textContent = Math.max(0, timeRemaining).toFixed(1);
 
-            // 2초 이하일 때 경고 표시
-            if (timeRemaining <= 2.0 && timeRemaining > 0) {
+            // 3초 이하일 때 경고 표시
+            if (timeRemaining <= 3.0 && timeRemaining > 0) {
                 this.ui.$stageTimer.classList.add('warning');
             }
         }
