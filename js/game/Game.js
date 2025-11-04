@@ -261,6 +261,13 @@ export class Game {
         if (!this.running || this.characters.length === 0) return;
 
         const character = this.characters[0];
+
+        // 🆕 이미 판정된 캐릭터는 무시 (중복 처리 방지)
+        if (character.judged) {
+            console.log('⚠️ 이미 판정된 인형입니다');
+            return;
+        }
+
         const currentTime = this.getNowSec();
         const stage = character.getStage(currentTime);
 
@@ -648,6 +655,9 @@ export class Game {
         this.dropsInCurrentStage = 0;
         this.clearedInCurrentStage = 0;
         this.phaseStartTime = currentTime;
+
+        // 🆕 이전 스테이지 인형 제거 (혹시 남아있을 수 있음)
+        this.characters = [];
 
         console.log(`🎬 스테이지 ${this.currentStage} 시작!`);
     }
