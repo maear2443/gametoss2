@@ -44,6 +44,11 @@ export class Character {
         this.flyDuration = 0.3; // 0.3초 동안 날아감
         this.flyDirection = 1; // 1: 오른쪽, -1: 왼쪽
 
+        // 🆕 아래로 떨어지는 애니메이션 (시간 초과 시)
+        this.isFallingDown = false;
+        this.fallStartTime = 0;
+        this.fallDuration = 0.5; // 0.5초 동안 떨어짐
+
         // BPM 기반 타이밍 계산
         this.calculateTiming();
     }
@@ -404,6 +409,31 @@ export class Character {
 
         const elapsed = currentTime - this.flyStartTime;
         const progress = Math.min(1.0, elapsed / this.flyDuration);
+
+        return progress;
+    }
+
+    /**
+     * 🆕 아래로 떨어지는 애니메이션을 시작합니다 (시간 초과 시).
+     *
+     * @param {number} currentTime - 시작 시간 (초)
+     */
+    startFallDown(currentTime) {
+        this.isFallingDown = true;
+        this.fallStartTime = currentTime;
+    }
+
+    /**
+     * 🆕 아래로 떨어지는 애니메이션 진행도를 반환합니다 (0.0 ~ 1.0).
+     *
+     * @param {number} currentTime - 현재 시간 (초)
+     * @returns {number} 진행도 (0.0 ~ 1.0)
+     */
+    getFallProgress(currentTime) {
+        if (!this.isFallingDown) return 0.0;
+
+        const elapsed = currentTime - this.fallStartTime;
+        const progress = Math.min(1.0, elapsed / this.fallDuration);
 
         return progress;
     }

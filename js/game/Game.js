@@ -63,7 +63,7 @@ export class Game {
         this.maxDropsPerStage = 7;
         this.clearedInCurrentStage = 0;
         this.phaseStartTime = 0;
-        this.playPhaseTimeLimit = 2.0; // 2초 제한
+        this.playPhaseTimeLimit = 5.0; // 5초 제한
 
         // 타이밍
         this.rafId = null;
@@ -509,27 +509,42 @@ export class Game {
         this.gamePhase = 'PLAY_PHASE';
         this.phaseStartTime = currentTime;
 
+        // 🆕 스테이지 시작 메시지 표시
+        this.showStageMessage(`STAGE ${this.currentStage}`, 'stage-start', 1500);
+
         // 🆕 모든 인형을 한번에 활성화!
         this.characters.forEach((char, index) => {
             char.activate(currentTime);
             console.log(`✅ 인형 ${index + 1} 활성화 (${char.color} ${char.characterType})`);
         });
 
-        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 2초 안에 모든 인형 처리!`);
+        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 5초 안에 모든 인형 처리!`);
     }
 
     /**
      * 플레이 페이즈: 제일 밑부터 처리
      */
     updatePlayPhase(currentTime) {
-        // 🆕 2초 제한 체크
+        // 🆕 5초 제한 체크
         const elapsedTime = currentTime - this.phaseStartTime;
         if (elapsedTime >= this.playPhaseTimeLimit) {
-            // 시간 초과! 남은 인형들 자동 실패 처리
+            // 시간 초과! 남은 인형들 아래로 떨어뜨리기
             if (this.characters.length > 0) {
-                console.log(`⏰ 플레이 페이즈 시간 초과! 남은 인형 ${this.characters.length}개 자동 제거`);
+                console.log(`⏰ 플레이 페이즈 시간 초과! 남은 인형 ${this.characters.length}개 떨어뜨림`);
                 this.combo = 0; // 콤보 초기화
-                this.characters = []; // 모든 인형 제거
+
+                // 🆕 모든 남은 인형에 아래로 떨어지는 애니메이션 시작
+                this.characters.forEach(char => {
+                    char.startFallDown(currentTime);
+                });
+
+                // 0.5초 후에 인형들 제거 (애니메이션 완료 후)
+                setTimeout(() => {
+                    this.characters = [];
+                    this.startClearPhase(this.getNowSec());
+                }, 500);
+
+                return;
             }
             this.startClearPhase(currentTime);
             return;
@@ -550,6 +565,9 @@ export class Game {
     startClearPhase(currentTime) {
         this.gamePhase = 'CLEAR_PHASE';
         this.phaseStartTime = currentTime;
+
+        // 🆕 스테이지 클리어 메시지 표시
+        this.showStageMessage(`STAGE ${this.currentStage} CLEAR!`, 'stage-clear', 2000);
 
         console.log(`✅ 스테이지 ${this.currentStage} 클리어!`);
     }
@@ -733,6 +751,34 @@ export class Game {
         setTimeout(() => {
             $judgment.classList.remove('show');
         }, UI.JUDGMENT_DISPLAY_DURATION);
+    }
+
+    /**
+     * 🆕 스테이지 메시지를 화면에 표시합니다.
+     *
+     * @param {string} message - 메시지 텍스트
+     * @param {string} className - CSS 클래스명 ('stage-start' 또는 'stage-clear')
+     * @param {number} duration - 표시 시간 (밀리초)
+     */
+    showStageMessage(message, className, duration) {
+        const $stageMessage = this.ui.$stageMessage;
+
+        // 클래스 초기화
+        $stageMessage.className = '';
+
+        // 텍스트 설정
+        $stageMessage.textContent = message;
+
+        // 클래스 추가
+        $stageMessage.classList.add(className);
+
+        // 표시
+        $stageMessage.classList.remove('hidden');
+
+        // 자동 숨김
+        setTimeout(() => {
+            $stageMessage.classList.add('hidden');
+        }, duration);
     }
 
     // ==============================================

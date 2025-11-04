@@ -27,6 +27,7 @@ const ui = {
     $rejectBtn: document.getElementById('reject-btn'),
     $approveBtn: document.getElementById('approve-btn'),
     $judgment: document.getElementById('judgment-display'),
+    $stageMessage: document.getElementById('stage-message'), // 🆕 스테이지 메시지
     $gameOver: document.getElementById('game-over'),
     $finalScore: document.getElementById('final-score'),
     $finalMaxCombo: document.getElementById('final-max-combo'),

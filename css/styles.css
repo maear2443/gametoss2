@@ -410,6 +410,49 @@ header .subtitle {
 }
 
 /* ==============================================
+   🆕 스테이지 메시지
+============================================== */
+#stage-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow:
+        0 0 20px rgba(255, 255, 0, 0.8),
+        0 0 40px rgba(255, 255, 0, 0.6),
+        4px 4px 8px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    pointer-events: none;
+    animation: stageMessagePulse 0.5s ease-in-out;
+}
+
+#stage-message.stage-start {
+    color: #FFD700;
+}
+
+#stage-message.stage-clear {
+    color: #00FF00;
+}
+
+@keyframes stageMessagePulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+/* ==============================================
    반응형 디자인
 ============================================== */
 @media (max-width: 768px) {

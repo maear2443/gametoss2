@@ -201,10 +201,25 @@ function renderCharacters(characters, currentTime) {
             ctx.globalAlpha = 1.0 - flyProgress;
         }
 
+        // 🆕 아래로 떨어지는 애니메이션: 시간 초과 시
+        const fallProgress = character.getFallProgress(currentTime);
+        if (fallProgress > 0.0) {
+            // easeIn 효과 (천천히 시작 → 빠르게 끝)
+            const eased = Math.pow(fallProgress, 2);
+            const fallDistance = height * 0.5; // 떨어지는 거리
+            y = y + fallDistance * eased;
+
+            // 페이드아웃 효과
+            if (flyProgress === 0.0) { // 날아가는 중이 아닐 때만
+                ctx.save();
+                ctx.globalAlpha = 1.0 - fallProgress;
+            }
+        }
+
         character.draw(ctx, currentTime, x, y);
 
-        // 날아가는 애니메이션 적용 시 restore
-        if (flyProgress > 0.0) {
+        // 애니메이션 적용 시 restore
+        if (flyProgress > 0.0 || fallProgress > 0.0) {
             ctx.restore();
         }
 
