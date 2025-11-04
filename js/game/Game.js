@@ -348,11 +348,9 @@ export class Game {
             );
 
             this.characters.push(character);
-        }
 
-        // 첫 번째 캐릭터만 활성화 (제일 밑)
-        if (wasEmpty && this.characters.length > 0) {
-            this.characters[0].activate(spawnTime);
+            // 🆕 옵션 A: 모든 캐릭터를 즉시 활성화!
+            character.activate(spawnTime);
         }
     }
 
@@ -456,10 +454,8 @@ export class Game {
 
                 this.characters.push(character);
 
-                // 첫 번째 캐릭터면 활성화
-                if (this.characters.length === 1) {
-                    character.activate(currentTime);
-                }
+                // 🆕 옵션 A: 모든 캐릭터를 즉시 활성화!
+                character.activate(currentTime);
 
                 console.log(`🎼 비트 이벤트 (${event.beat_index}): ${color} ${characterType} @ ${event.time.toFixed(2)}s`);
             }

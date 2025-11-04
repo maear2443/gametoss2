@@ -93,10 +93,8 @@ export class Character {
      *                   4는 시간 초과 상태 (자동 MISS)
      */
     getStage(currentTime) {
-        // 비활성화된 캐릭터는 항상 Stage 1 (대기 상태)
-        if (!this.active) {
-            return 1;
-        }
+        // 🆕 옵션 A: 모든 캐릭터가 생성 시점부터 카운트다운 진행!
+        // active 여부와 관계없이 시간이 흐름
 
         if (currentTime < this.stage1EndTime) {
             return 1;
@@ -116,11 +114,7 @@ export class Character {
      * @returns {Image|null} 현재 단계의 이미지
      */
     getImage(currentTime) {
-        // 비활성 캐릭터는 항상 밝은 상태 (stage3)
-        if (!this.active) {
-            return this.images.stage3;
-        }
-
+        // 🆕 옵션 A: 모든 캐릭터가 스테이지에 따라 이미지 변경
         const stage = this.getStage(currentTime);
         let image;
 
@@ -193,11 +187,7 @@ export class Character {
      * @returns {number} 펄스 스케일 (0.85 ~ 1.15)
      */
     getPulse(currentTime) {
-        // 비활성화된 캐릭터는 펄스 없음
-        if (!this.active) {
-            return 1.0;
-        }
-
+        // 🆕 옵션 A: 모든 캐릭터가 스테이지에 따라 맥동
         const stage = this.getStage(currentTime);
         let pulseConfig;
 
@@ -238,27 +228,20 @@ export class Character {
         const size = CHARACTER_SIZE * pulse;
 
         // 글로우 효과 설정
+        // 🆕 옵션 A: 모든 캐릭터가 스테이지에 따라 글로우 변화
         let glowConfig;
 
-        // 비활성 캐릭터는 밝고 선명하게 (대기 중)
-        if (!this.active) {
-            glowConfig = {
-                blur: 5,
-                alpha: 1.0  // 완전히 불투명
-            };
-        } else {
-            switch (stage) {
-                case 1:
-                    glowConfig = GLOW.STAGE1;
-                    break;
-                case 2:
-                    glowConfig = GLOW.STAGE2;
-                    break;
-                case 3:
-                default:
-                    glowConfig = GLOW.STAGE3;
-                    break;
-            }
+        switch (stage) {
+            case 1:
+                glowConfig = GLOW.STAGE1;
+                break;
+            case 2:
+                glowConfig = GLOW.STAGE2;
+                break;
+            case 3:
+            default:
+                glowConfig = GLOW.STAGE3;
+                break;
         }
 
         ctx.save();
