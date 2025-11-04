@@ -57,13 +57,14 @@ export class Game {
         this.nextBeatIndex = 0;
 
         // 🆕 스테이지 기반 시스템
-        this.gamePhase = 'DROP_PHASE'; // DROP_PHASE, PLAY_PHASE, CLEAR_PHASE
+        this.gamePhase = 'DROP_PHASE'; // DROP_PHASE, READY_PHASE, PLAY_PHASE, CLEAR_PHASE
         this.currentStage = 1;
         this.dropsInCurrentStage = 0;
         this.maxDropsPerStage = 7;
         this.clearedInCurrentStage = 0;
         this.phaseStartTime = 0;
         this.playPhaseTimeLimit = 10.0; // 10초 제한 (7개 인형 여유있게 처리)
+        this.readyPhaseDelay = 1.0; // 준비 시간 1초
 
         // 타이밍
         this.rafId = null;
@@ -457,6 +458,9 @@ export class Game {
             case 'DROP_PHASE':
                 this.updateDropPhase(currentTime);
                 break;
+            case 'READY_PHASE':
+                this.updateReadyPhase(currentTime);
+                break;
             case 'PLAY_PHASE':
                 this.updatePlayPhase(currentTime);
                 break;
@@ -503,11 +507,35 @@ export class Game {
 
             this.nextBeatIndex++;
 
-            // 7개 쌓이면 플레이 페이즈로!
+            // 7개 쌓이면 준비 페이즈로!
             if (this.dropsInCurrentStage >= this.maxDropsPerStage) {
-                this.startPlayPhase(currentTime);
+                this.startReadyPhase(currentTime);
                 break;
             }
+        }
+    }
+
+    /**
+     * 🆕 준비 페이즈 시작
+     */
+    startReadyPhase(currentTime) {
+        this.gamePhase = 'READY_PHASE';
+        this.phaseStartTime = currentTime;
+
+        // 🆕 스테이지 시작 메시지 표시
+        this.showStageMessage(`STAGE ${this.currentStage}`, 'stage-start', 1000);
+
+        console.log(`⏸️ 준비 중... (스테이지 ${this.currentStage})`);
+    }
+
+    /**
+     * 🆕 준비 페이즈: 1초 대기
+     */
+    updateReadyPhase(currentTime) {
+        const elapsedTime = currentTime - this.phaseStartTime;
+
+        if (elapsedTime >= this.readyPhaseDelay) {
+            this.startPlayPhase(currentTime);
         }
     }
 
@@ -518,10 +546,7 @@ export class Game {
         this.gamePhase = 'PLAY_PHASE';
         this.phaseStartTime = currentTime;
 
-        // 🆕 스테이지 시작 메시지 표시
-        this.showStageMessage(`STAGE ${this.currentStage}`, 'stage-start', 1500);
-
-        // 🆕 스테이지 타이머 표시
+        // 🆕 스테이지 타이머 표시 (READY_PHASE 끝나고 표시)
         this.ui.$stageTimer.classList.remove('hidden');
         this.ui.$stageTimer.classList.remove('warning');
 
