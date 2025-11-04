@@ -63,6 +63,7 @@ export class Game {
         this.maxDropsPerStage = 7;
         this.clearedInCurrentStage = 0;
         this.phaseStartTime = 0;
+        this.playPhaseTimeLimit = 2.0; // 2초 제한
 
         // 타이밍
         this.rafId = null;
@@ -312,14 +313,21 @@ export class Game {
         // 캐릭터 판정 기록
         character.setJudgment(judgment);
 
-        // 200ms 후 캐릭터 제거 (애니메이션 보여주기 위해)
+        // 🆕 날아가는 애니메이션 시작 (왼쪽 또는 오른쪽)
+        const flyDirection = action === 'approve' ? 1 : -1; // approve = 오른쪽, reject = 왼쪽
+        character.startFlyOut(currentTime, flyDirection);
+
+        // 300ms 후 캐릭터 제거 (날아가는 애니메이션 완료 후)
         setTimeout(() => {
             // 아직 첫 번째 캐릭터가 맞는지 확인 (게임 루프에서 이미 제거되지 않았는지)
             if (this.characters.length > 0 && this.characters[0] === character) {
                 this.removeCharacter(0);
-                this.fillCharacters();
+                // 비트맵 모드가 아닐 때만 자동으로 채움
+                if (!this.beatmapEnabled) {
+                    this.fillCharacters();
+                }
             }
-        }, UI.CHARACTER_REMOVE_DELAY);
+        }, 300); // 날아가는 애니메이션 시간 (0.3초)
 
         console.log(`${judgment} | Stage ${stage} | ${isCorrect ? '✅' : '❌'} | Score: +${finalScore} | Combo: ${this.combo}`);
     }
@@ -501,18 +509,32 @@ export class Game {
         this.gamePhase = 'PLAY_PHASE';
         this.phaseStartTime = currentTime;
 
-        // 제일 밑 인형 활성화
-        if (this.characters.length > 0) {
-            this.characters[0].activate(currentTime);
-        }
+        // 🆕 모든 인형을 한번에 활성화!
+        this.characters.forEach((char, index) => {
+            char.activate(currentTime);
+            console.log(`✅ 인형 ${index + 1} 활성화 (${char.color} ${char.characterType})`);
+        });
 
-        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage})`);
+        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage}) - 2초 안에 모든 인형 처리!`);
     }
 
     /**
      * 플레이 페이즈: 제일 밑부터 처리
      */
     updatePlayPhase(currentTime) {
+        // 🆕 2초 제한 체크
+        const elapsedTime = currentTime - this.phaseStartTime;
+        if (elapsedTime >= this.playPhaseTimeLimit) {
+            // 시간 초과! 남은 인형들 자동 실패 처리
+            if (this.characters.length > 0) {
+                console.log(`⏰ 플레이 페이즈 시간 초과! 남은 인형 ${this.characters.length}개 자동 제거`);
+                this.combo = 0; // 콤보 초기화
+                this.characters = []; // 모든 인형 제거
+            }
+            this.startClearPhase(currentTime);
+            return;
+        }
+
         // 시간 초과 캐릭터 제거
         this.removeTimedOutCharacters(currentTime);
 

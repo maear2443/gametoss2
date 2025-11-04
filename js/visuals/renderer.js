@@ -174,13 +174,42 @@ function renderCharacters(characters, currentTime) {
     // 역순으로 그려서 첫 번째 캐릭터가 맨 위에 오도록 (Z-index)
     for (let i = characters.length - 1; i >= 0; i--) {
         const character = characters[i];
-        const x = centerX;
-        const y = bottomY - i * overlapSpacing;
+
+        // 기본 위치 계산
+        let x = centerX;
+        let y = bottomY - i * overlapSpacing;
+
+        // 🆕 드롭 애니메이션: 위에서 아래로 떨어지는 효과
+        const dropProgress = character.getDropProgress(currentTime);
+        if (dropProgress < 1.0) {
+            // easeOut 효과 (빠르게 시작 → 천천히 끝)
+            const eased = 1 - Math.pow(1 - dropProgress, 3);
+            const dropDistance = CHARACTER_SIZE * 2; // 떨어지는 거리
+            y = y - dropDistance * (1 - eased);
+        }
+
+        // 🆕 날아가는 애니메이션: 옆으로 날아가는 효과
+        const flyProgress = character.getFlyProgress(currentTime);
+        if (flyProgress > 0.0) {
+            // easeIn 효과 (천천히 시작 → 빠르게 끝)
+            const eased = Math.pow(flyProgress, 2);
+            const flyDistance = width * 0.6; // 날아가는 거리
+            x = x + flyDistance * eased * character.flyDirection;
+
+            // 페이드아웃 효과
+            ctx.save();
+            ctx.globalAlpha = 1.0 - flyProgress;
+        }
 
         character.draw(ctx, currentTime, x, y);
 
+        // 날아가는 애니메이션 적용 시 restore
+        if (flyProgress > 0.0) {
+            ctx.restore();
+        }
+
         // 첫 번째 캐릭터 하이라이트 (제일 밑, 맨 마지막에 그려짐)
-        if (i === 0) {
+        if (i === 0 && !character.isFlyingOut) {
             renderFirstCharacterHighlight(x, y);
         }
     }

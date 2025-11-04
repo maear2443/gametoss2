@@ -33,6 +33,17 @@ export class Character {
         this.judged = false;
         this.result = null;
 
+        // 🆕 드롭 애니메이션
+        this.isDropping = true; // 떨어지는 중
+        this.dropStartTime = spawnTime;
+        this.dropDuration = 0.3; // 0.3초 동안 떨어짐
+
+        // 🆕 날아가는 애니메이션
+        this.isFlyingOut = false;
+        this.flyStartTime = 0;
+        this.flyDuration = 0.3; // 0.3초 동안 날아감
+        this.flyDirection = 1; // 1: 오른쪽, -1: 왼쪽
+
         // BPM 기반 타이밍 계산
         this.calculateTiming();
     }
@@ -348,5 +359,52 @@ export class Character {
      */
     markForRemoval() {
         this.markedForRemoval = true;
+    }
+
+    /**
+     * 🆕 드롭 애니메이션 진행도를 반환합니다 (0.0 ~ 1.0).
+     *
+     * @param {number} currentTime - 현재 시간 (초)
+     * @returns {number} 진행도 (0.0 ~ 1.0)
+     */
+    getDropProgress(currentTime) {
+        if (!this.isDropping) return 1.0;
+
+        const elapsed = currentTime - this.dropStartTime;
+        const progress = Math.min(1.0, elapsed / this.dropDuration);
+
+        // 드롭 완료
+        if (progress >= 1.0) {
+            this.isDropping = false;
+        }
+
+        return progress;
+    }
+
+    /**
+     * 🆕 날아가는 애니메이션을 시작합니다.
+     *
+     * @param {number} currentTime - 시작 시간 (초)
+     * @param {number} direction - 방향 (1: 오른쪽, -1: 왼쪽)
+     */
+    startFlyOut(currentTime, direction = 1) {
+        this.isFlyingOut = true;
+        this.flyStartTime = currentTime;
+        this.flyDirection = direction;
+    }
+
+    /**
+     * 🆕 날아가는 애니메이션 진행도를 반환합니다 (0.0 ~ 1.0).
+     *
+     * @param {number} currentTime - 현재 시간 (초)
+     * @returns {number} 진행도 (0.0 ~ 1.0)
+     */
+    getFlyProgress(currentTime) {
+        if (!this.isFlyingOut) return 0.0;
+
+        const elapsed = currentTime - this.flyStartTime;
+        const progress = Math.min(1.0, elapsed / this.flyDuration);
+
+        return progress;
     }
 }
