@@ -56,6 +56,14 @@ export class Game {
         this.beatmapEnabled = false;
         this.nextBeatIndex = 0;
 
+        // 🆕 스테이지 기반 시스템
+        this.gamePhase = 'DROP_PHASE'; // DROP_PHASE, PLAY_PHASE, CLEAR_PHASE
+        this.currentStage = 1;
+        this.dropsInCurrentStage = 0;
+        this.maxDropsPerStage = 7;
+        this.clearedInCurrentStage = 0;
+        this.phaseStartTime = 0;
+
         // 타이밍
         this.rafId = null;
         this.lastTime = 0;
@@ -129,6 +137,13 @@ export class Game {
         this.characters = [];
         this.nextBeatIndex = 0; // 비트맵 인덱스 리셋
 
+        // 🆕 스테이지 시스템 초기화
+        this.gamePhase = 'DROP_PHASE';
+        this.currentStage = 1;
+        this.dropsInCurrentStage = 0;
+        this.clearedInCurrentStage = 0;
+        this.phaseStartTime = 0;
+
         // 이펙트 초기화
         clearEffects();
         clearAnimations();
@@ -197,14 +212,12 @@ export class Game {
             return;
         }
 
-        // 시간 초과 캐릭터 제거
-        this.removeTimedOutCharacters(this.getNowSec());
-
-        // 비트맵 모드일 경우 비트에 맞춰 캐릭터 생성
+        // 🆕 스테이지 기반 시스템
         if (this.beatmapEnabled) {
-            this.updateBeatmapSpawns(this.getNowSec());
+            this.updateStageBasedGameplay(this.getNowSec());
         } else {
-            // 기본 모드: 캐릭터 채우기
+            // 기본 모드 (비트맵 없을 때)
+            this.removeTimedOutCharacters(this.getNowSec());
             this.fillCharacters();
         }
 
@@ -414,7 +427,137 @@ export class Game {
     }
 
     // ==============================================
-    // 비트맵 모드
+    // 스테이지 기반 시스템
+    // ==============================================
+
+    /**
+     * 🆕 스테이지 기반 게임플레이 업데이트
+     *
+     * @param {number} currentTime - 현재 시간 (초)
+     */
+    updateStageBasedGameplay(currentTime) {
+        switch (this.gamePhase) {
+            case 'DROP_PHASE':
+                this.updateDropPhase(currentTime);
+                break;
+            case 'PLAY_PHASE':
+                this.updatePlayPhase(currentTime);
+                break;
+            case 'CLEAR_PHASE':
+                this.updateClearPhase(currentTime);
+                break;
+        }
+    }
+
+    /**
+     * 드롭 페이즈: 비트마다 인형이 떨어짐
+     */
+    updateDropPhase(currentTime) {
+        if (!this.beatmap || !this.beatmap.game_events) return;
+
+        const events = this.beatmap.game_events;
+
+        // 다음 비트 이벤트 확인
+        while (this.nextBeatIndex < events.length && this.dropsInCurrentStage < this.maxDropsPerStage) {
+            const event = events[this.nextBeatIndex];
+
+            // 아직 시간이 안 됨
+            if (event.time > currentTime) {
+                break;
+            }
+
+            // 인형 드롭!
+            const color = COLOR_TYPES[Math.floor(Math.random() * COLOR_TYPES.length)];
+            const { characterType, images } = getRandomCharacter(color);
+
+            const character = new Character(
+                color,
+                characterType,
+                currentTime,
+                this.characters.length,
+                this.bpm,
+                images
+            );
+
+            this.characters.push(character);
+            this.dropsInCurrentStage++;
+
+            console.log(`💧 드롭! (${this.dropsInCurrentStage}/${this.maxDropsPerStage}) ${color} ${characterType}`);
+
+            this.nextBeatIndex++;
+
+            // 7개 쌓이면 플레이 페이즈로!
+            if (this.dropsInCurrentStage >= this.maxDropsPerStage) {
+                this.startPlayPhase(currentTime);
+                break;
+            }
+        }
+    }
+
+    /**
+     * 플레이 페이즈 시작
+     */
+    startPlayPhase(currentTime) {
+        this.gamePhase = 'PLAY_PHASE';
+        this.phaseStartTime = currentTime;
+
+        // 제일 밑 인형 활성화
+        if (this.characters.length > 0) {
+            this.characters[0].activate(currentTime);
+        }
+
+        console.log(`🎮 플레이 페이즈 시작! (스테이지 ${this.currentStage})`);
+    }
+
+    /**
+     * 플레이 페이즈: 제일 밑부터 처리
+     */
+    updatePlayPhase(currentTime) {
+        // 시간 초과 캐릭터 제거
+        this.removeTimedOutCharacters(currentTime);
+
+        // 모두 처리했으면 클리어 페이즈로
+        if (this.characters.length === 0) {
+            this.startClearPhase(currentTime);
+        }
+    }
+
+    /**
+     * 클리어 페이즈 시작
+     */
+    startClearPhase(currentTime) {
+        this.gamePhase = 'CLEAR_PHASE';
+        this.phaseStartTime = currentTime;
+
+        console.log(`✅ 스테이지 ${this.currentStage} 클리어!`);
+    }
+
+    /**
+     * 클리어 페이즈: 잠깐 쉬고 다음 스테이지
+     */
+    updateClearPhase(currentTime) {
+        const clearDelay = 1.0; // 1초 대기
+
+        if (currentTime - this.phaseStartTime >= clearDelay) {
+            this.startNextStage(currentTime);
+        }
+    }
+
+    /**
+     * 다음 스테이지 시작
+     */
+    startNextStage(currentTime) {
+        this.currentStage++;
+        this.gamePhase = 'DROP_PHASE';
+        this.dropsInCurrentStage = 0;
+        this.clearedInCurrentStage = 0;
+        this.phaseStartTime = currentTime;
+
+        console.log(`🎬 스테이지 ${this.currentStage} 시작!`);
+    }
+
+    // ==============================================
+    // 비트맵 모드 (기존 - 사용 안 함)
     // ==============================================
 
     /**
