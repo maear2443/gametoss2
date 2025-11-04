@@ -152,9 +152,15 @@ export class Game {
         // 음악 리셋
         resetMusic();
 
-        // 캐릭터 생성 (비트맵 모드가 아닐 때만)
+        // 🆕 비트맵 모드일 때는 빈 화면으로 시작 (DROP_PHASE에서 인형이 떨어짐)
+        // 기본 모드일 때만 초기 캐릭터 생성
         if (!this.beatmapEnabled) {
             this.fillCharactersAtTime(0);
+        }
+
+        // 🆕 스테이지 타이머 숨기기
+        if (this.ui.$stageTimer) {
+            this.ui.$stageTimer.classList.add('hidden');
         }
 
         // UI 업데이트
