@@ -237,6 +237,13 @@ export class Game {
         if (!this.running || this.characters.length === 0) return;
 
         const character = this.characters[0];
+
+        // 🆕 이미 판정된 캐릭터는 무시 (중복 처리 방지)
+        if (character.judged) {
+            console.log('⚠️ 이미 판정된 인형입니다');
+            return;
+        }
+
         const currentTime = this.getNowSec();
         const stage = character.getStage(currentTime);
 
