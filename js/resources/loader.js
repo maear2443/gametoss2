@@ -18,6 +18,7 @@ export const resources = {
         red: {},
         blue: {}
     },
+    gifAnimators: {}, // 🆕 GIF 애니메이터 저장
     soundEffects: {},
     currentAudio: null,
     currentSong: null,
@@ -42,6 +43,9 @@ export async function loadAllResources() {
 
         // 이미지 로드
         await loadCharacterImages();
+
+        // 🆕 GIF 애니메이션 로드
+        await loadGifAnimations();
 
         // 효과음 로드
         await loadSoundEffects();
@@ -162,6 +166,60 @@ function loadImage(src) {
         img.onerror = () => reject(new Error(`이미지 로드 실패: ${src}`));
         img.src = src;
     });
+}
+
+// ==============================================
+// 🆕 GIF 애니메이션 로딩
+// ==============================================
+
+/**
+ * GIF 애니메이션을 로드합니다.
+ */
+async function loadGifAnimations() {
+    const gifPath = 'assets/images/blue/blue.gif';
+
+    try {
+        // Gifler 라이브러리가 로드되었는지 확인
+        if (typeof gifler === 'undefined') {
+            console.warn('⚠️ Gifler 라이브러리가 로드되지 않았습니다. GIF 애니메이션 비활성화.');
+            return;
+        }
+
+        // GIF 로드
+        await new Promise((resolve, reject) => {
+            gifler(gifPath)
+                .frames(document.createElement('canvas'), (ctx, frame) => {
+                    // Animator 객체 저장
+                    if (!resources.gifAnimators['blue']) {
+                        resources.gifAnimators['blue'] = {
+                            frames: [],
+                            currentFrame: 0,
+                            delay: frame.delay,
+                            width: frame.width,
+                            height: frame.height
+                        };
+                    }
+
+                    // 프레임 캔버스 생성 및 저장
+                    const frameCanvas = document.createElement('canvas');
+                    frameCanvas.width = frame.width;
+                    frameCanvas.height = frame.height;
+                    const frameCtx = frameCanvas.getContext('2d');
+                    frameCtx.drawImage(ctx.canvas, 0, 0);
+
+                    resources.gifAnimators['blue'].frames.push({
+                        canvas: frameCanvas,
+                        delay: frame.delay
+                    });
+                })
+                .get((animator) => {
+                    console.log(`✅ GIF 애니메이션 로드 성공: ${gifPath} (${resources.gifAnimators['blue'].frames.length} 프레임)`);
+                    resolve();
+                });
+        });
+    } catch (error) {
+        console.warn(`⚠️ GIF 로드 실패: ${gifPath}`, error);
+    }
 }
 
 // ==============================================

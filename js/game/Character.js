@@ -5,6 +5,7 @@
  */
 
 import { STAGE_DURATIONS, beatsToSeconds, CHARACTER_SIZE, GLOW, PULSE, COLORS, DEBUG } from '../config/settings.js';
+import { resources } from '../resources/loader.js';
 
 export class Character {
     /**
@@ -251,8 +252,26 @@ export class Character {
         ctx.shadowColor = this.color === 'red' ? COLORS.RED : COLORS.BLUE;
         ctx.globalAlpha = glowConfig.alpha;
 
-        // 이미지가 로드되었으면 그리기
-        if (image && image.complete && image.naturalHeight !== 0) {
+        // 🆕 파란색 캐릭터 & GIF 애니메이터가 있으면 GIF 애니메이션 사용
+        if (this.color === 'blue' && resources.gifAnimators['blue']) {
+            const animator = resources.gifAnimators['blue'];
+
+            // 현재 프레임 계산 (시간 기반 순환)
+            const elapsedMs = currentTime * 1000;
+            const frameIndex = Math.floor(elapsedMs / animator.delay) % animator.frames.length;
+            const frame = animator.frames[frameIndex];
+
+            // GIF 프레임 그리기
+            ctx.drawImage(
+                frame.canvas,
+                x - size / 2,
+                y - size / 2,
+                size,
+                size
+            );
+        }
+        // 이미지가 로드되었으면 PNG 그리기
+        else if (image && image.complete && image.naturalHeight !== 0) {
             ctx.drawImage(
                 image,
                 x - size / 2,
@@ -260,8 +279,9 @@ export class Character {
                 size,
                 size
             );
-        } else {
-            // Fallback: 이미지 로딩 실패 시 색상 박스 그리기
+        }
+        // Fallback: 이미지 로딩 실패 시 색상 박스 그리기
+        else {
             ctx.fillStyle = this.color === 'red' ? COLORS.RED : COLORS.BLUE;
             ctx.fillRect(
                 x - size / 2,
